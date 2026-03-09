@@ -6,6 +6,56 @@
 -- Enable UUID
 create extension if not exists "uuid-ossp";
 
+-- Enable pgvector (for RAG semantic search)
+create extension if not exists vector;
+
+-- ── 0. job_requirements (RAG Data — dikurasi tim) ─────────────
+-- Menyimpan job descriptions dengan vector embeddings untuk similarity search
+create table public.job_requirements (
+  id          uuid primary key default uuid_generate_v4(),
+  job_role_id uuid not null references public.job_roles(id) on delete cascade,
+  title       text not null,        -- Judul job posting (contoh: "Senior Frontend Dev at Tokopedia")
+  content     text not null,        -- Isi job description lengkap
+  source      text,                 -- Sumber data (Glints, Jobstreet, LinkedIn, dll)
+  embedding   vector(768),          -- Gemini text-embedding-004 output (768 dims)
+  created_at  timestamptz default now()
+);
+
+-- Fungsi untuk vector similarity search (cosine distance)
+create or replace function match_job_requirements(
+  query_embedding vector(768),
+  match_role_id   uuid,
+  match_threshold float default 0.5,
+  match_count     int default 5
+)
+returns table (
+  id          uuid,
+  title       text,
+  content     text,
+  source      text,
+  similarity  float
+)
+language sql stable
+as $$
+  select
+    jr.id,
+    jr.title,
+    jr.content,
+    jr.source,
+    1 - (jr.embedding <=> query_embedding) as similarity
+  from public.job_requirements jr
+  where
+    jr.job_role_id = match_role_id
+    and 1 - (jr.embedding <=> query_embedding) > match_threshold
+  order by jr.embedding <=> query_embedding
+  limit match_count;
+$$;
+
+-- Index untuk mempercepat vector search
+create index on public.job_requirements using ivfflat (embedding vector_cosine_ops)
+  with (lists = 100);
+
+
 -- ── 1. job_roles (Master Data) ────────────────────────────────
 create table public.job_roles (
   id          uuid primary key default uuid_generate_v4(),
@@ -35,7 +85,7 @@ create table public.job_role_skills (
 -- id sama dengan auth.users.id (1-to-1)
 create table public.profiles (
   id               uuid primary key references auth.users(id) on delete cascade,
-  current_role     text,
+  current_position text,
   target_role_id   uuid references public.job_roles(id) on delete set null,
   readiness_score  numeric(5,2) default 0,
   created_at       timestamptz default now(),
@@ -103,3 +153,7 @@ create policy "Public read job_role_skills" on public.job_role_skills for select
 alter table public.job_roles enable row level security;
 alter table public.skills enable row level security;
 alter table public.job_role_skills enable row level security;
+
+-- job_requirements: public readable (AI pakai ini untuk konteks)
+alter table public.job_requirements enable row level security;
+create policy "Public read job_requirements" on public.job_requirements for select using (true);

@@ -65,8 +65,8 @@ router.post('/generate', authGuard, async (req, res, next) => {
 
         if (skillError) throw skillError;
 
-        // Generate roadmap via Gemini
-        const roadmapContent = await generateRoadmap(profile.job_roles.name, gapSkills);
+        // Generate roadmap via Gemini + RAG
+        const roadmapContent = await generateRoadmap(profile.job_roles.name, profile.target_role_id, gapSkills);
 
         // Simpan ke database
         const { data: savedRoadmap, error: saveError } = await supabase
