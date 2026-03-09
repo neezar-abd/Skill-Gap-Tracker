@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Frontend Developer",
+    "description": "Membangun antarmuka pengguna berbasis web menggunakan HTML, CSS, JavaScript, dan framework modern seperti React atau Next.js."
+  },
+  {
+    "name": "Backend Developer",
+    "description": "Membangun dan mengelola server, database, dan API yang mendukung aplikasi web dan mobile."
+  },
+  {
+    "name": "Data Analyst",
+    "description": "Mengumpulkan, membersihkan, dan menganalisis data untuk menghasilkan insight bisnis yang berharga."
+  },
+  {
+    "name": "UI/UX Designer",
+    "description": "Merancang tampilan dan pengalaman pengguna yang intuitif, menarik, dan sesuai kebutuhan pengguna."
+  },
+  {
+    "name": "Digital Marketing",
+    "description": "Merencanakan dan menjalankan strategi pemasaran digital melalui berbagai platform online."
+  }
+]

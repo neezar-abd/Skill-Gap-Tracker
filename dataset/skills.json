@@ -1,0 +1,332 @@
+[
+    {
+        "name": "HTML",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Frontend Developer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "CSS",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Frontend Developer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "JavaScript",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Frontend Developer",
+                "importance": "required"
+            },
+            {
+                "role": "Backend Developer",
+                "importance": "nice_to_have"
+            }
+        ]
+    },
+    {
+        "name": "React.js",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Frontend Developer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Next.js",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Frontend Developer",
+                "importance": "nice_to_have"
+            }
+        ]
+    },
+    {
+        "name": "TypeScript",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Frontend Developer",
+                "importance": "nice_to_have"
+            },
+            {
+                "role": "Backend Developer",
+                "importance": "nice_to_have"
+            }
+        ]
+    },
+    {
+        "name": "Tailwind CSS",
+        "category": "tools",
+        "roles": [
+            {
+                "role": "Frontend Developer",
+                "importance": "nice_to_have"
+            }
+        ]
+    },
+    {
+        "name": "Git",
+        "category": "tools",
+        "roles": [
+            {
+                "role": "Frontend Developer",
+                "importance": "required"
+            },
+            {
+                "role": "Backend Developer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "REST API",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Frontend Developer",
+                "importance": "required"
+            },
+            {
+                "role": "Backend Developer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Node.js",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Backend Developer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Express.js",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Backend Developer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "SQL",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Backend Developer",
+                "importance": "required"
+            },
+            {
+                "role": "Data Analyst",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "PostgreSQL",
+        "category": "tools",
+        "roles": [
+            {
+                "role": "Backend Developer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Docker",
+        "category": "tools",
+        "roles": [
+            {
+                "role": "Backend Developer",
+                "importance": "nice_to_have"
+            }
+        ]
+    },
+    {
+        "name": "Authentication & JWT",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Backend Developer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Python",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Data Analyst",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Pandas",
+        "category": "programming",
+        "roles": [
+            {
+                "role": "Data Analyst",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Excel",
+        "category": "tools",
+        "roles": [
+            {
+                "role": "Data Analyst",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Data Visualization",
+        "category": "tools",
+        "roles": [
+            {
+                "role": "Data Analyst",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Statistik Dasar",
+        "category": "knowledge",
+        "roles": [
+            {
+                "role": "Data Analyst",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Tableau / Power BI",
+        "category": "tools",
+        "roles": [
+            {
+                "role": "Data Analyst",
+                "importance": "nice_to_have"
+            }
+        ]
+    },
+    {
+        "name": "Figma",
+        "category": "tools",
+        "roles": [
+            {
+                "role": "UI/UX Designer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "User Research",
+        "category": "knowledge",
+        "roles": [
+            {
+                "role": "UI/UX Designer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Wireframing",
+        "category": "knowledge",
+        "roles": [
+            {
+                "role": "UI/UX Designer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Prototyping",
+        "category": "knowledge",
+        "roles": [
+            {
+                "role": "UI/UX Designer",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Design System",
+        "category": "knowledge",
+        "roles": [
+            {
+                "role": "UI/UX Designer",
+                "importance": "nice_to_have"
+            }
+        ]
+    },
+    {
+        "name": "SEO",
+        "category": "knowledge",
+        "roles": [
+            {
+                "role": "Digital Marketing",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Google Analytics",
+        "category": "tools",
+        "roles": [
+            {
+                "role": "Digital Marketing",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Social Media Marketing",
+        "category": "knowledge",
+        "roles": [
+            {
+                "role": "Digital Marketing",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Content Writing",
+        "category": "knowledge",
+        "roles": [
+            {
+                "role": "Digital Marketing",
+                "importance": "required"
+            }
+        ]
+    },
+    {
+        "name": "Meta Ads / Google Ads",
+        "category": "tools",
+        "roles": [
+            {
+                "role": "Digital Marketing",
+                "importance": "nice_to_have"
+            }
+        ]
+    }
+]
