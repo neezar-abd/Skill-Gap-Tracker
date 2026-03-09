@@ -4,12 +4,8 @@ import helmet from 'helmet';
 import morgan from 'morgan';
 import dotenv from 'dotenv';
 
-import authRoutes from './routes/auth.js';
-import profileRoutes from './routes/profile.js';
-import skillsRoutes from './routes/skills.js';
 import analysisRoutes from './routes/analysis.js';
 import roadmapRoutes from './routes/roadmap.js';
-import progressRoutes from './routes/progress.js';
 import errorHandler from './middleware/errorHandler.js';
 
 dotenv.config();
@@ -23,13 +19,11 @@ app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(morgan('dev'));
 app.use(express.json());
 
-// ── Routes ──────────────────────────────────────────────────────
-app.use('/api/auth', authRoutes);
-app.use('/api/profile', profileRoutes);
-app.use('/api/skills', skillsRoutes);
+// ── Routes (Neezar) ─────────────────────────────────────────────
 app.use('/api/analysis', analysisRoutes);
 app.use('/api/roadmap', roadmapRoutes);
-app.use('/api/progress', progressRoutes);
+
+// TODO (Zaky): tambahkan routes auth, profile, skills, progress di sini
 
 // Health check
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
