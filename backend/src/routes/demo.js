@@ -20,6 +20,40 @@ router.get('/roles', async (req, res, next) => {
     }
 });
 
+// GET /api/demo/skills (List all skills)
+router.get('/skills', async (req, res, next) => {
+    try {
+        const { data, error } = await supabase.from('skills').select('*').order('name');
+        if (error) throw error;
+        res.json({ skills: data });
+    } catch (err) {
+        next(err);
+    }
+});
+
+// GET /api/demo/roles/:id/skills (Get skills by role ID)
+router.get('/roles/:id/skills', async (req, res, next) => {
+    try {
+        const { id } = req.params;
+        const { data, error } = await supabase
+            .from('job_role_skills')
+            .select('importance, skills(*)')
+            .eq('job_role_id', id);
+            
+        if (error) throw error;
+        
+        // Flatten structure
+        const skills = data.map(item => ({
+            ...item.skills,
+            importance: item.importance
+        }));
+        
+        res.json({ skills });
+    } catch (err) {
+        next(err);
+    }
+});
+
 // POST /api/demo/roadmap
 router.post('/roadmap', async (req, res, next) => {
     try {
