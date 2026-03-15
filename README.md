@@ -3,22 +3,27 @@
 
 Aplikasi web yang membantu individu mengetahui skill apa yang harus dipelajari untuk mencapai posisi karir yang diinginkan.
 
+## 🚀 Live Demo
+- **Backend API:** [https://skill-gap-tracker.onrender.com](https://skill-gap-tracker.onrender.com)
+- **API Documentation:** [Lihat Dokumentasi Lengkap](./BACKEND_DOCS.md)
+
 ## Tech Stack
-- **Frontend**: Next.js + Tailwind CSS
-- **Backend**: Express.js
-- **Database & Auth**: Supabase (PostgreSQL + Auth)
-- **AI**: Gemini API
-- **HTTP Client**: Axios
+- **Frontend**: HTML/JS (Vanilla) / Next.js (Planned)
+- **Backend**: Express.js (Node.js)
+- **Database**: Supabase (PostgreSQL + pgvector for RAG)
+- **Auth**: Supabase Auth
+- **AI**: Google Gemini API (untuk generate roadmap)
 
 ## Struktur Repo (Monorepo)
 
 ```
 Skill-Gap-Tracker/
-├── frontend/       ← Next.js + Tailwind CSS
-├── backend/        ← Express.js API
-├── database/       ← SQL schema (schema.sql)
-├── dataset/        ← Data JSON (job_roles, skills)
-└── Spec.md
+├── frontend/       ← Frontend Application
+├── backend/        ← Express.js API & Services
+├── database/       ← SQL Schemas & Migration Scripts
+├── dataset/        ← Master Data JSON (roles, skills, resources)
+├── BACKEND_DOCS.md ← Dokumentasi Endpoint API
+└── Spec.md         ← Spesifikasi Proyek
 ```
 
 ## Tim — CC26-PS088
