@@ -1,332 +1,866 @@
 [
-    {
-        "name": "HTML",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Frontend Developer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "CSS",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Frontend Developer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "JavaScript",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Frontend Developer",
-                "importance": "required"
-            },
-            {
-                "role": "Backend Developer",
-                "importance": "nice_to_have"
-            }
-        ]
-    },
-    {
-        "name": "React.js",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Frontend Developer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Next.js",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Frontend Developer",
-                "importance": "nice_to_have"
-            }
-        ]
-    },
-    {
-        "name": "TypeScript",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Frontend Developer",
-                "importance": "nice_to_have"
-            },
-            {
-                "role": "Backend Developer",
-                "importance": "nice_to_have"
-            }
-        ]
-    },
-    {
-        "name": "Tailwind CSS",
-        "category": "tools",
-        "roles": [
-            {
-                "role": "Frontend Developer",
-                "importance": "nice_to_have"
-            }
-        ]
-    },
-    {
-        "name": "Git",
-        "category": "tools",
-        "roles": [
-            {
-                "role": "Frontend Developer",
-                "importance": "required"
-            },
-            {
-                "role": "Backend Developer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "REST API",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Frontend Developer",
-                "importance": "required"
-            },
-            {
-                "role": "Backend Developer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Node.js",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Backend Developer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Express.js",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Backend Developer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "SQL",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Backend Developer",
-                "importance": "required"
-            },
-            {
-                "role": "Data Analyst",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "PostgreSQL",
-        "category": "tools",
-        "roles": [
-            {
-                "role": "Backend Developer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Docker",
-        "category": "tools",
-        "roles": [
-            {
-                "role": "Backend Developer",
-                "importance": "nice_to_have"
-            }
-        ]
-    },
-    {
-        "name": "Authentication & JWT",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Backend Developer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Python",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Data Analyst",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Pandas",
-        "category": "programming",
-        "roles": [
-            {
-                "role": "Data Analyst",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Excel",
-        "category": "tools",
-        "roles": [
-            {
-                "role": "Data Analyst",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Data Visualization",
-        "category": "tools",
-        "roles": [
-            {
-                "role": "Data Analyst",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Statistik Dasar",
-        "category": "knowledge",
-        "roles": [
-            {
-                "role": "Data Analyst",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Tableau / Power BI",
-        "category": "tools",
-        "roles": [
-            {
-                "role": "Data Analyst",
-                "importance": "nice_to_have"
-            }
-        ]
-    },
-    {
-        "name": "Figma",
-        "category": "tools",
-        "roles": [
-            {
-                "role": "UI/UX Designer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "User Research",
-        "category": "knowledge",
-        "roles": [
-            {
-                "role": "UI/UX Designer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Wireframing",
-        "category": "knowledge",
-        "roles": [
-            {
-                "role": "UI/UX Designer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Prototyping",
-        "category": "knowledge",
-        "roles": [
-            {
-                "role": "UI/UX Designer",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Design System",
-        "category": "knowledge",
-        "roles": [
-            {
-                "role": "UI/UX Designer",
-                "importance": "nice_to_have"
-            }
-        ]
-    },
-    {
-        "name": "SEO",
-        "category": "knowledge",
-        "roles": [
-            {
-                "role": "Digital Marketing",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Google Analytics",
-        "category": "tools",
-        "roles": [
-            {
-                "role": "Digital Marketing",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Social Media Marketing",
-        "category": "knowledge",
-        "roles": [
-            {
-                "role": "Digital Marketing",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Content Writing",
-        "category": "knowledge",
-        "roles": [
-            {
-                "role": "Digital Marketing",
-                "importance": "required"
-            }
-        ]
-    },
-    {
-        "name": "Meta Ads / Google Ads",
-        "category": "tools",
-        "roles": [
-            {
-                "role": "Digital Marketing",
-                "importance": "nice_to_have"
-            }
-        ]
-    }
+  {
+    "name": "HTML",
+    "category": "programming",
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "CSS",
+    "category": "programming",
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "category": "programming"
+  },
+  {
+    "name": "React.js",
+    "category": "programming"
+  },
+  {
+    "name": "Next.js",
+    "category": "programming"
+  },
+  {
+    "name": "TypeScript",
+    "category": "programming"
+  },
+  {
+    "name": "Redux / State Management",
+    "category": "knowledge"
+  },
+  {
+    "name": "Tailwind CSS",
+    "category": "programming"
+  },
+  {
+    "name": "Git",
+    "category": "tools"
+  },
+  {
+    "name": "REST API",
+    "category": "programming",
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "importance": "required"
+      },
+      {
+        "role": "Backend Developer",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Node.js",
+    "category": "programming"
+  },
+  {
+    "name": "Express.js",
+    "category": "programming"
+  },
+  {
+    "name": "SQL",
+    "category": "programming"
+  },
+  {
+    "name": "PostgreSQL",
+    "category": "tools"
+  },
+  {
+    "name": "Docker",
+    "category": "tools"
+  },
+  {
+    "name": "Authentication & JWT",
+    "category": "programming",
+    "roles": [
+      {
+        "role": "Backend Developer",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Python",
+    "category": "programming"
+  },
+  {
+    "name": "Pandas",
+    "category": "programming",
+    "roles": [
+      {
+        "role": "Data Analyst",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Excel (Data Analysis)",
+    "category": "tools",
+    "roles": [
+      {
+        "role": "Data Analyst",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Data Visualization",
+    "category": "tools",
+    "roles": [
+      {
+        "role": "Data Analyst",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Basic Statistics",
+    "category": "knowledge",
+    "roles": [
+      {
+        "role": "Data Analyst",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Tableau",
+    "category": "tools",
+    "roles": [
+      {
+        "role": "Data Analyst",
+        "importance": "nice_to_have"
+      }
+    ]
+  },
+  {
+    "name": "Power BI",
+    "category": "tools",
+    "roles": [
+      {
+        "role": "Data Analyst",
+        "importance": "nice_to_have"
+      }
+    ]
+  },
+  {
+    "name": "Figma",
+    "category": "tools"
+  },
+  {
+    "name": "User Research",
+    "category": "knowledge"
+  },
+  {
+    "name": "Wireframing",
+    "category": "knowledge",
+    "roles": [
+      {
+        "role": "UI/UX Designer",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Prototyping",
+    "category": "knowledge",
+    "roles": [
+      {
+        "role": "UI/UX Designer",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Design System",
+    "category": "knowledge",
+    "roles": [
+      {
+        "role": "UI/UX Designer",
+        "importance": "nice_to_have"
+      }
+    ]
+  },
+  {
+    "name": "SEO",
+    "category": "knowledge"
+  },
+  {
+    "name": "Google Analytics",
+    "category": "tools",
+    "roles": [
+      {
+        "role": "Digital Marketing",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Social Media Marketing",
+    "category": "knowledge",
+    "roles": [
+      {
+        "role": "Digital Marketing",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Content Writing",
+    "category": "knowledge",
+    "roles": [
+      {
+        "role": "Digital Marketing",
+        "importance": "required"
+      }
+    ]
+  },
+  {
+    "name": "Meta Ads",
+    "category": "tools",
+    "roles": [
+      {
+        "role": "Digital Marketing",
+        "importance": "nice_to_have"
+      }
+    ]
+  },
+  {
+    "name": "Google Ads",
+    "category": "tools",
+    "roles": [
+      {
+        "role": "Digital Marketing",
+        "importance": "nice_to_have"
+      }
+    ]
+  },
+  {
+    "name": "C++",
+    "category": "programming"
+  },
+  {
+    "name": "C#",
+    "category": "programming"
+  },
+  {
+    "name": "Java",
+    "category": "programming"
+  },
+  {
+    "name": "Go (Golang)",
+    "category": "programming"
+  },
+  {
+    "name": "Rust",
+    "category": "programming"
+  },
+  {
+    "name": "PHP",
+    "category": "programming"
+  },
+  {
+    "name": "Ruby",
+    "category": "programming"
+  },
+  {
+    "name": "Swift",
+    "category": "programming"
+  },
+  {
+    "name": "Kotlin",
+    "category": "programming"
+  },
+  {
+    "name": "Dart",
+    "category": "programming"
+  },
+  {
+    "name": "HTML5",
+    "category": "programming"
+  },
+  {
+    "name": "CSS3",
+    "category": "programming"
+  },
+  {
+    "name": "Vue.js",
+    "category": "programming"
+  },
+  {
+    "name": "Nuxt.js",
+    "category": "programming"
+  },
+  {
+    "name": "Angular",
+    "category": "programming"
+  },
+  {
+    "name": "Svelte",
+    "category": "programming"
+  },
+  {
+    "name": "Laravel",
+    "category": "programming"
+  },
+  {
+    "name": "Spring Boot",
+    "category": "programming"
+  },
+  {
+    "name": "Django",
+    "category": "programming"
+  },
+  {
+    "name": "Flask",
+    "category": "programming"
+  },
+  {
+    "name": "NestJS",
+    "category": "programming"
+  },
+  {
+    "name": "Bootstrap",
+    "category": "programming"
+  },
+  {
+    "name": "Sass/SCSS",
+    "category": "programming"
+  },
+  {
+    "name": "React Native",
+    "category": "programming"
+  },
+  {
+    "name": "Flutter",
+    "category": "programming"
+  },
+  {
+    "name": "Deno",
+    "category": "programming"
+  },
+  {
+    "name": "GraphQL",
+    "category": "programming"
+  },
+  {
+    "name": "Apollo Client",
+    "category": "programming"
+  },
+  {
+    "name": "Redux",
+    "category": "programming"
+  },
+  {
+    "name": "Zustand",
+    "category": "programming"
+  },
+  {
+    "name": "jQuery",
+    "category": "programming"
+  },
+  {
+    "name": "PL/SQL",
+    "category": "programming"
+  },
+  {
+    "name": "Bash/Shell Scripting",
+    "category": "programming"
+  },
+  {
+    "name": "PowerShell",
+    "category": "programming"
+  },
+  {
+    "name": "Ruby on Rails",
+    "category": "programming"
+  },
+  {
+    "name": "ASP.NET Core",
+    "category": "programming"
+  },
+  {
+    "name": "FastAPI",
+    "category": "programming"
+  },
+  {
+    "name": "Prisma ORM",
+    "category": "programming"
+  },
+  {
+    "name": "Sequelize",
+    "category": "programming"
+  },
+  {
+    "name": "Mongoose",
+    "category": "programming"
+  },
+  {
+    "name": "Eloquent ORM",
+    "category": "programming"
+  },
+  {
+    "name": "GitHub",
+    "category": "tools"
+  },
+  {
+    "name": "GitLab",
+    "category": "tools"
+  },
+  {
+    "name": "Kubernetes",
+    "category": "tools"
+  },
+  {
+    "name": "AWS EC2",
+    "category": "tools"
+  },
+  {
+    "name": "AWS S3",
+    "category": "tools"
+  },
+  {
+    "name": "AWS Lambda",
+    "category": "tools"
+  },
+  {
+    "name": "Google Cloud Platform (GCP)",
+    "category": "tools"
+  },
+  {
+    "name": "Microsoft Azure",
+    "category": "tools"
+  },
+  {
+    "name": "Terraform",
+    "category": "tools"
+  },
+  {
+    "name": "Ansible",
+    "category": "tools"
+  },
+  {
+    "name": "Jenkins",
+    "category": "tools"
+  },
+  {
+    "name": "GitHub Actions",
+    "category": "tools"
+  },
+  {
+    "name": "Vercel",
+    "category": "tools"
+  },
+  {
+    "name": "Netlify",
+    "category": "tools"
+  },
+  {
+    "name": "Postman",
+    "category": "tools"
+  },
+  {
+    "name": "Insomnia",
+    "category": "tools"
+  },
+  {
+    "name": "Adobe XD",
+    "category": "tools"
+  },
+  {
+    "name": "Wireshark",
+    "category": "tools"
+  },
+  {
+    "name": "Metasploit",
+    "category": "tools"
+  },
+  {
+    "name": "Nmap",
+    "category": "tools"
+  },
+  {
+    "name": "Burp Suite",
+    "category": "tools"
+  },
+  {
+    "name": "Qualys",
+    "category": "tools"
+  },
+  {
+    "name": "Nessus",
+    "category": "tools"
+  },
+  {
+    "name": "Splunk",
+    "category": "tools"
+  },
+  {
+    "name": "Elasticsearch",
+    "category": "tools"
+  },
+  {
+    "name": "Logstash",
+    "category": "tools"
+  },
+  {
+    "name": "Kibana",
+    "category": "tools"
+  },
+  {
+    "name": "Prometheus",
+    "category": "tools"
+  },
+  {
+    "name": "Grafana",
+    "category": "tools"
+  },
+  {
+    "name": "Datadog",
+    "category": "tools"
+  },
+  {
+    "name": "Jira",
+    "category": "tools"
+  },
+  {
+    "name": "Trello",
+    "category": "tools"
+  },
+  {
+    "name": "Webpack",
+    "category": "tools"
+  },
+  {
+    "name": "Vite",
+    "category": "tools"
+  },
+  {
+    "name": "npm",
+    "category": "tools"
+  },
+  {
+    "name": "yarn",
+    "category": "tools"
+  },
+  {
+    "name": "pnpm",
+    "category": "tools"
+  },
+  {
+    "name": "MySQL",
+    "category": "tools"
+  },
+  {
+    "name": "MongoDB",
+    "category": "tools"
+  },
+  {
+    "name": "Redis",
+    "category": "tools"
+  },
+  {
+    "name": "Cassandra",
+    "category": "tools"
+  },
+  {
+    "name": "Apache Kafka",
+    "category": "tools"
+  },
+  {
+    "name": "RabbitMQ",
+    "category": "tools"
+  },
+  {
+    "name": "Nginx",
+    "category": "tools"
+  },
+  {
+    "name": "Apache HTTP Server",
+    "category": "tools"
+  },
+  {
+    "name": "VMware/VirtualBox",
+    "category": "tools"
+  },
+  {
+    "name": "Agile Methodology",
+    "category": "knowledge"
+  },
+  {
+    "name": "Scrum Framework",
+    "category": "knowledge"
+  },
+  {
+    "name": "Kanban",
+    "category": "knowledge"
+  },
+  {
+    "name": "System Design",
+    "category": "knowledge"
+  },
+  {
+    "name": "RESTful API Architecture",
+    "category": "knowledge"
+  },
+  {
+    "name": "GraphQL Concepts",
+    "category": "knowledge"
+  },
+  {
+    "name": "Object-Oriented Programming (OOP)",
+    "category": "knowledge"
+  },
+  {
+    "name": "Functional Programming",
+    "category": "knowledge"
+  },
+  {
+    "name": "Microservices Architecture",
+    "category": "knowledge"
+  },
+  {
+    "name": "Monolithic Architecture",
+    "category": "knowledge"
+  },
+  {
+    "name": "Serverless Computing Concepts",
+    "category": "knowledge"
+  },
+  {
+    "name": "Test-Driven Development (TDD)",
+    "category": "knowledge"
+  },
+  {
+    "name": "Behavior-Driven Development (BDD)",
+    "category": "knowledge"
+  },
+  {
+    "name": "CI/CD Principles",
+    "category": "knowledge"
+  },
+  {
+    "name": "Web Accessibility (WCAG)",
+    "category": "knowledge"
+  },
+  {
+    "name": "UI Design Systems",
+    "category": "knowledge"
+  },
+  {
+    "name": "Responsive Web Design",
+    "category": "knowledge"
+  },
+  {
+    "name": "Domain-Driven Design (DDD)",
+    "category": "knowledge"
+  },
+  {
+    "name": "MVC Architecture",
+    "category": "knowledge"
+  },
+  {
+    "name": "SOLID Principles",
+    "category": "knowledge"
+  },
+  {
+    "name": "DRY & KISS Principles",
+    "category": "knowledge"
+  },
+  {
+    "name": "Version Control Workflows (Git Flow)",
+    "category": "knowledge"
+  },
+  {
+    "name": "Penetration Testing Methodologies",
+    "category": "knowledge"
+  },
+  {
+    "name": "Vulnerability Management",
+    "category": "knowledge"
+  },
+  {
+    "name": "Cryptography Fundamentals",
+    "category": "knowledge"
+  },
+  {
+    "name": "OWASP Top 10",
+    "category": "knowledge"
+  },
+  {
+    "name": "Operational Technology (OT) Security",
+    "category": "knowledge"
+  },
+  {
+    "name": "Zero Trust Architecture",
+    "category": "knowledge"
+  },
+  {
+    "name": "Network Protocols (TCP/IP, UDP)",
+    "category": "knowledge"
+  },
+  {
+    "name": "HTTP/HTTPS Lifecycle",
+    "category": "knowledge"
+  },
+  {
+    "name": "DNS Management",
+    "category": "knowledge"
+  },
+  {
+    "name": "Load Balancing Strategies",
+    "category": "knowledge"
+  },
+  {
+    "name": "Containerization Concepts",
+    "category": "knowledge"
+  },
+  {
+    "name": "Database Normalization",
+    "category": "knowledge"
+  },
+  {
+    "name": "ACID Properties",
+    "category": "knowledge"
+  },
+  {
+    "name": "CAP Theorem",
+    "category": "knowledge"
+  },
+  {
+    "name": "Data Warehousing Concepts",
+    "category": "knowledge"
+  },
+  {
+    "name": "Data Modeling",
+    "category": "knowledge"
+  },
+  {
+    "name": "Machine Learning Lifecycle",
+    "category": "knowledge"
+  },
+  {
+    "name": "Deep Learning Fundamentals",
+    "category": "knowledge"
+  },
+  {
+    "name": "Natural Language Processing (NLP)",
+    "category": "knowledge"
+  },
+  {
+    "name": "Prompt Engineering",
+    "category": "knowledge"
+  },
+  {
+    "name": "Threat Modeling",
+    "category": "knowledge"
+  },
+  {
+    "name": "Incident Response Planning",
+    "category": "knowledge"
+  },
+  {
+    "name": "Identity and Access Management (IAM)",
+    "category": "knowledge"
+  },
+  {
+    "name": "ITIL Framework",
+    "category": "knowledge"
+  },
+  {
+    "name": "Cloud Computing Service Models (IaaS, PaaS, SaaS)",
+    "category": "knowledge"
+  },
+  {
+    "name": "Problem Solving",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Critical Thinking",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Analytical Thinking",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Leadership",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Team Collaboration",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Effective Written Communication",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Verbal Communication",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Active Listening",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Time Management",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Adaptability & Flexibility",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Empathy",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Conflict Resolution",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Mentoring & Coaching",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Negotiation Skills",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Emotional Intelligence (EQ)",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Creative Thinking",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Strategic Decision Making",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Presentation & Public Speaking",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Client Relationship Management",
+    "category": "soft_skill"
+  },
+  {
+    "name": "Stress Management & Resilience",
+    "category": "soft_skill"
+  }
 ]

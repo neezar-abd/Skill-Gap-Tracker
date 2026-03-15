@@ -17,13 +17,13 @@ create table public.job_requirements (
   title       text not null,        -- Judul job posting (contoh: "Senior Frontend Dev at Tokopedia")
   content     text not null,        -- Isi job description lengkap
   source      text,                 -- Sumber data (Glints, Jobstreet, LinkedIn, dll)
-  embedding   vector(768),          -- Gemini text-embedding-004 output (768 dims)
+  embedding   vector(3072),         -- Gemini gemini-embedding-001 output (3072 dims)
   created_at  timestamptz default now()
 );
 
 -- Fungsi untuk vector similarity search (cosine distance)
 create or replace function match_job_requirements(
-  query_embedding vector(768),
+  query_embedding vector(3072),
   match_role_id   uuid,
   match_threshold float default 0.5,
   match_count     int default 5
@@ -157,3 +157,22 @@ alter table public.job_role_skills enable row level security;
 -- job_requirements: public readable (AI pakai ini untuk konteks)
 alter table public.job_requirements enable row level security;
 create policy "Public read job_requirements" on public.job_requirements for select using (true);
+-- Buat tabel untuk menyimpan link referensi belajar per skill
+CREATE TABLE IF NOT EXISTS public.skill_resources (
+  id uuid DEFAULT gen_random_uuid() PRIMARY KEY,
+  skill_id uuid REFERENCES public.skills(id) ON DELETE CASCADE,
+  title text NOT NULL,
+  url text NOT NULL,
+  type text NOT NULL, -- 'video' atau 'article'
+  platform text,
+  created_at timestamptz DEFAULT now()
+);
+
+-- Enable RLS (Read-only untuk Publik, sama kayak Skills)
+ALTER TABLE public.skill_resources ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Allow public read access to skill_resources"
+  ON public.skill_resources
+  FOR SELECT
+  TO public
+  USING (true);

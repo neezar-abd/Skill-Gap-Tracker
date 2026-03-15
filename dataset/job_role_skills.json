@@ -1,0 +1,1792 @@
+[
+  {
+    "role_name": "Front-End Developer",
+    "skill_name": "HTML5",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Developer",
+    "skill_name": "CSS3",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Developer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Developer",
+    "skill_name": "Responsive Web Design",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Developer",
+    "skill_name": "React.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Developer",
+    "skill_name": "Version Control Workflows (Git Flow)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Developer",
+    "skill_name": "TypeScript",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Front-End Developer",
+    "skill_name": "Tailwind CSS",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Front-End Developer",
+    "skill_name": "Figma",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "React Specialist",
+    "skill_name": "React.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "React Specialist",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "React Specialist",
+    "skill_name": "TypeScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "React Specialist",
+    "skill_name": "Redux / State Management",
+    "importance": "required"
+  },
+  {
+    "role_name": "React Specialist",
+    "skill_name": "Redux",
+    "importance": "required"
+  },
+  {
+    "role_name": "React Specialist",
+    "skill_name": "Next.js",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "React Specialist",
+    "skill_name": "GraphQL",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "React Specialist",
+    "skill_name": "Zustand",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Vue.js Engineer",
+    "skill_name": "Vue.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Vue.js Engineer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Vue.js Engineer",
+    "skill_name": "HTML5",
+    "importance": "required"
+  },
+  {
+    "role_name": "Vue.js Engineer",
+    "skill_name": "CSS3",
+    "importance": "required"
+  },
+  {
+    "role_name": "Vue.js Engineer",
+    "skill_name": "Redux / State Management",
+    "importance": "required"
+  },
+  {
+    "role_name": "Vue.js Engineer",
+    "skill_name": "Nuxt.js",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Vue.js Engineer",
+    "skill_name": "TypeScript",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "UI Developer",
+    "skill_name": "HTML5",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Developer",
+    "skill_name": "CSS3",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Developer",
+    "skill_name": "Sass/SCSS",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Developer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Developer",
+    "skill_name": "UI Design Systems",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Developer",
+    "skill_name": "Responsive Web Design",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Developer",
+    "skill_name": "Figma",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "UI Developer",
+    "skill_name": "Tailwind CSS",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "UX Engineer",
+    "skill_name": "User Research",
+    "importance": "required"
+  },
+  {
+    "role_name": "UX Engineer",
+    "skill_name": "Figma",
+    "importance": "required"
+  },
+  {
+    "role_name": "UX Engineer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "UX Engineer",
+    "skill_name": "HTML5",
+    "importance": "required"
+  },
+  {
+    "role_name": "UX Engineer",
+    "skill_name": "Empathy",
+    "importance": "required"
+  },
+  {
+    "role_name": "UX Engineer",
+    "skill_name": "Web Accessibility (WCAG)",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "UX Engineer",
+    "skill_name": "Adobe XD",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Front-End Architect",
+    "skill_name": "System Design",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Architect",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Architect",
+    "skill_name": "TypeScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Architect",
+    "skill_name": "Microservices Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Architect",
+    "skill_name": "CI/CD Principles",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Architect",
+    "skill_name": "Leadership",
+    "importance": "required"
+  },
+  {
+    "role_name": "Front-End Architect",
+    "skill_name": "Webpack",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Front-End Architect",
+    "skill_name": "Vite",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Web Accessibility Specialist",
+    "skill_name": "Web Accessibility (WCAG)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Accessibility Specialist",
+    "skill_name": "HTML5",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Accessibility Specialist",
+    "skill_name": "CSS3",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Accessibility Specialist",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Accessibility Specialist",
+    "skill_name": "Empathy",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Accessibility Specialist",
+    "skill_name": "React.js",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Web Accessibility Specialist",
+    "skill_name": "User Research",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "UI Animation Engineer",
+    "skill_name": "CSS3",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Animation Engineer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Animation Engineer",
+    "skill_name": "HTML5",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Animation Engineer",
+    "skill_name": "Creative Thinking",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Animation Engineer",
+    "skill_name": "React.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "UI Animation Engineer",
+    "skill_name": "Figma",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "UI Animation Engineer",
+    "skill_name": "Sass/SCSS",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Web Performance Engineer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Performance Engineer",
+    "skill_name": "HTTP/HTTPS Lifecycle",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Performance Engineer",
+    "skill_name": "Analytical Thinking",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Performance Engineer",
+    "skill_name": "HTML5",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Performance Engineer",
+    "skill_name": "CSS3",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Performance Engineer",
+    "skill_name": "Webpack",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Web Performance Engineer",
+    "skill_name": "Vite",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Angular Developer",
+    "skill_name": "Angular",
+    "importance": "required"
+  },
+  {
+    "role_name": "Angular Developer",
+    "skill_name": "TypeScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Angular Developer",
+    "skill_name": "HTML5",
+    "importance": "required"
+  },
+  {
+    "role_name": "Angular Developer",
+    "skill_name": "CSS3",
+    "importance": "required"
+  },
+  {
+    "role_name": "Angular Developer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Angular Developer",
+    "skill_name": "RxJS",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Angular Developer",
+    "skill_name": "Redux / State Management",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Back-End Developer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Back-End Developer",
+    "skill_name": "SQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "Back-End Developer",
+    "skill_name": "Git",
+    "importance": "required"
+  },
+  {
+    "role_name": "Back-End Developer",
+    "skill_name": "MVC Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Back-End Developer",
+    "skill_name": "Problem Solving",
+    "importance": "required"
+  },
+  {
+    "role_name": "Back-End Developer",
+    "skill_name": "Docker",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Back-End Developer",
+    "skill_name": "Postman",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "PHP/Laravel Engineer",
+    "skill_name": "PHP",
+    "importance": "required"
+  },
+  {
+    "role_name": "PHP/Laravel Engineer",
+    "skill_name": "Laravel",
+    "importance": "required"
+  },
+  {
+    "role_name": "PHP/Laravel Engineer",
+    "skill_name": "MySQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "PHP/Laravel Engineer",
+    "skill_name": "Eloquent ORM",
+    "importance": "required"
+  },
+  {
+    "role_name": "PHP/Laravel Engineer",
+    "skill_name": "MVC Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "PHP/Laravel Engineer",
+    "skill_name": "Tailwind CSS",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "PHP/Laravel Engineer",
+    "skill_name": "Redis",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Node.js Developer",
+    "skill_name": "Node.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Node.js Developer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Node.js Developer",
+    "skill_name": "Express.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Node.js Developer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Node.js Developer",
+    "skill_name": "MongoDB",
+    "importance": "required"
+  },
+  {
+    "role_name": "Node.js Developer",
+    "skill_name": "TypeScript",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Node.js Developer",
+    "skill_name": "NestJS",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Python API Engineer",
+    "skill_name": "Python",
+    "importance": "required"
+  },
+  {
+    "role_name": "Python API Engineer",
+    "skill_name": "FastAPI",
+    "importance": "required"
+  },
+  {
+    "role_name": "Python API Engineer",
+    "skill_name": "Django",
+    "importance": "required"
+  },
+  {
+    "role_name": "Python API Engineer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Python API Engineer",
+    "skill_name": "PostgreSQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "Python API Engineer",
+    "skill_name": "Docker",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Python API Engineer",
+    "skill_name": "Flask",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Java Software Engineer",
+    "skill_name": "Java",
+    "importance": "required"
+  },
+  {
+    "role_name": "Java Software Engineer",
+    "skill_name": "Spring Boot",
+    "importance": "required"
+  },
+  {
+    "role_name": "Java Software Engineer",
+    "skill_name": "Object-Oriented Programming (OOP)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Java Software Engineer",
+    "skill_name": "SQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "Java Software Engineer",
+    "skill_name": "Microservices Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Java Software Engineer",
+    "skill_name": "Apache Kafka",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Java Software Engineer",
+    "skill_name": "Kubernetes",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Golang Backend Developer",
+    "skill_name": "Go (Golang)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Golang Backend Developer",
+    "skill_name": "Microservices Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Golang Backend Developer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Golang Backend Developer",
+    "skill_name": "SQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "Golang Backend Developer",
+    "skill_name": "Docker",
+    "importance": "required"
+  },
+  {
+    "role_name": "Golang Backend Developer",
+    "skill_name": "gRPC",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Golang Backend Developer",
+    "skill_name": "Kubernetes",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Database Administrator (DBA)",
+    "skill_name": "SQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "Database Administrator (DBA)",
+    "skill_name": "MySQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "Database Administrator (DBA)",
+    "skill_name": "PostgreSQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "Database Administrator (DBA)",
+    "skill_name": "Database Normalization",
+    "importance": "required"
+  },
+  {
+    "role_name": "Database Administrator (DBA)",
+    "skill_name": "ACID Properties",
+    "importance": "required"
+  },
+  {
+    "role_name": "Database Administrator (DBA)",
+    "skill_name": "Bash/Shell Scripting",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Database Administrator (DBA)",
+    "skill_name": "MongoDB",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Back-End Architect",
+    "skill_name": "System Design",
+    "importance": "required"
+  },
+  {
+    "role_name": "Back-End Architect",
+    "skill_name": "Microservices Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Back-End Architect",
+    "skill_name": "Load Balancing Strategies",
+    "importance": "required"
+  },
+  {
+    "role_name": "Back-End Architect",
+    "skill_name": "Database Normalization",
+    "importance": "required"
+  },
+  {
+    "role_name": "Back-End Architect",
+    "skill_name": "Leadership",
+    "importance": "required"
+  },
+  {
+    "role_name": "Back-End Architect",
+    "skill_name": "Apache Kafka",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Back-End Architect",
+    "skill_name": "AWS EC2",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Cloud API Developer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Cloud API Developer",
+    "skill_name": "Serverless Computing Concepts",
+    "importance": "required"
+  },
+  {
+    "role_name": "Cloud API Developer",
+    "skill_name": "AWS Lambda",
+    "importance": "required"
+  },
+  {
+    "role_name": "Cloud API Developer",
+    "skill_name": "Python",
+    "importance": "required"
+  },
+  {
+    "role_name": "Cloud API Developer",
+    "skill_name": "Node.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Cloud API Developer",
+    "skill_name": "GraphQL Concepts",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Cloud API Developer",
+    "skill_name": "Terraform",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Data Engineer",
+    "skill_name": "Python",
+    "importance": "required"
+  },
+  {
+    "role_name": "Data Engineer",
+    "skill_name": "SQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "Data Engineer",
+    "skill_name": "Data Warehousing Concepts",
+    "importance": "required"
+  },
+  {
+    "role_name": "Data Engineer",
+    "skill_name": "Data Modeling",
+    "importance": "required"
+  },
+  {
+    "role_name": "Data Engineer",
+    "skill_name": "Bash/Shell Scripting",
+    "importance": "required"
+  },
+  {
+    "role_name": "Data Engineer",
+    "skill_name": "Apache Kafka",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Data Engineer",
+    "skill_name": "Google Cloud Platform (GCP)",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Full-Stack Developer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Full-Stack Developer",
+    "skill_name": "React.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Full-Stack Developer",
+    "skill_name": "Node.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Full-Stack Developer",
+    "skill_name": "SQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "Full-Stack Developer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Full-Stack Developer",
+    "skill_name": "Docker",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Full-Stack Developer",
+    "skill_name": "TypeScript",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "MERN Stack Specialist",
+    "skill_name": "MongoDB",
+    "importance": "required"
+  },
+  {
+    "role_name": "MERN Stack Specialist",
+    "skill_name": "Express.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "MERN Stack Specialist",
+    "skill_name": "React.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "MERN Stack Specialist",
+    "skill_name": "Node.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "MERN Stack Specialist",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "MERN Stack Specialist",
+    "skill_name": "Mongoose",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "MERN Stack Specialist",
+    "skill_name": "Tailwind CSS",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Next.js Full-Stack Developer",
+    "skill_name": "Next.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Next.js Full-Stack Developer",
+    "skill_name": "React.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Next.js Full-Stack Developer",
+    "skill_name": "TypeScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Next.js Full-Stack Developer",
+    "skill_name": "Tailwind CSS",
+    "importance": "required"
+  },
+  {
+    "role_name": "Next.js Full-Stack Developer",
+    "skill_name": "Vercel",
+    "importance": "required"
+  },
+  {
+    "role_name": "Next.js Full-Stack Developer",
+    "skill_name": "Prisma ORM",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Next.js Full-Stack Developer",
+    "skill_name": "PostgreSQL",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "LAMP Stack Developer",
+    "skill_name": "Linux",
+    "importance": "required"
+  },
+  {
+    "role_name": "LAMP Stack Developer",
+    "skill_name": "Apache HTTP Server",
+    "importance": "required"
+  },
+  {
+    "role_name": "LAMP Stack Developer",
+    "skill_name": "MySQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "LAMP Stack Developer",
+    "skill_name": "PHP",
+    "importance": "required"
+  },
+  {
+    "role_name": "LAMP Stack Developer",
+    "skill_name": "Bash/Shell Scripting",
+    "importance": "required"
+  },
+  {
+    "role_name": "LAMP Stack Developer",
+    "skill_name": "Laravel",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "LAMP Stack Developer",
+    "skill_name": "jQuery",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Jamstack Engineer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Jamstack Engineer",
+    "skill_name": "React.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Jamstack Engineer",
+    "skill_name": "Next.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "Jamstack Engineer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Jamstack Engineer",
+    "skill_name": "Netlify",
+    "importance": "required"
+  },
+  {
+    "role_name": "Jamstack Engineer",
+    "skill_name": "GraphQL Concepts",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Jamstack Engineer",
+    "skill_name": "Vercel",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Full-Stack Software Architect",
+    "skill_name": "System Design",
+    "importance": "required"
+  },
+  {
+    "role_name": "Full-Stack Software Architect",
+    "skill_name": "Microservices Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Full-Stack Software Architect",
+    "skill_name": "CI/CD Principles",
+    "importance": "required"
+  },
+  {
+    "role_name": "Full-Stack Software Architect",
+    "skill_name": "Strategic Decision Making",
+    "importance": "required"
+  },
+  {
+    "role_name": "Full-Stack Software Architect",
+    "skill_name": "Leadership",
+    "importance": "required"
+  },
+  {
+    "role_name": "Full-Stack Software Architect",
+    "skill_name": "Cloud Computing Service Models (IaaS, PaaS, SaaS)",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Full-Stack Software Architect",
+    "skill_name": "Docker",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Enterprise Full-Stack Engineer",
+    "skill_name": "Java",
+    "importance": "required"
+  },
+  {
+    "role_name": "Enterprise Full-Stack Engineer",
+    "skill_name": "Spring Boot",
+    "importance": "required"
+  },
+  {
+    "role_name": "Enterprise Full-Stack Engineer",
+    "skill_name": "Angular",
+    "importance": "required"
+  },
+  {
+    "role_name": "Enterprise Full-Stack Engineer",
+    "skill_name": "SQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "Enterprise Full-Stack Engineer",
+    "skill_name": "Microservices Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Enterprise Full-Stack Engineer",
+    "skill_name": "Kubernetes",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Enterprise Full-Stack Engineer",
+    "skill_name": "Apache Kafka",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "iOS Native Developer",
+    "skill_name": "Swift",
+    "importance": "required"
+  },
+  {
+    "role_name": "iOS Native Developer",
+    "skill_name": "Object-Oriented Programming (OOP)",
+    "importance": "required"
+  },
+  {
+    "role_name": "iOS Native Developer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "iOS Native Developer",
+    "skill_name": "Version Control Workflows (Git Flow)",
+    "importance": "required"
+  },
+  {
+    "role_name": "iOS Native Developer",
+    "skill_name": "Problem Solving",
+    "importance": "required"
+  },
+  {
+    "role_name": "iOS Native Developer",
+    "skill_name": "Figma",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "iOS Native Developer",
+    "skill_name": "CI/CD Principles",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Android Native Developer",
+    "skill_name": "Kotlin",
+    "importance": "required"
+  },
+  {
+    "role_name": "Android Native Developer",
+    "skill_name": "Java",
+    "importance": "required"
+  },
+  {
+    "role_name": "Android Native Developer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Android Native Developer",
+    "skill_name": "Object-Oriented Programming (OOP)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Android Native Developer",
+    "skill_name": "Problem Solving",
+    "importance": "required"
+  },
+  {
+    "role_name": "Android Native Developer",
+    "skill_name": "Figma",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Android Native Developer",
+    "skill_name": "CI/CD Principles",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Flutter Developer",
+    "skill_name": "Dart",
+    "importance": "required"
+  },
+  {
+    "role_name": "Flutter Developer",
+    "skill_name": "Flutter",
+    "importance": "required"
+  },
+  {
+    "role_name": "Flutter Developer",
+    "skill_name": "Redux / State Management",
+    "importance": "required"
+  },
+  {
+    "role_name": "Flutter Developer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Flutter Developer",
+    "skill_name": "Object-Oriented Programming (OOP)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Flutter Developer",
+    "skill_name": "Firebase",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Flutter Developer",
+    "skill_name": "CI/CD Principles",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "React Native Engineer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "React Native Engineer",
+    "skill_name": "React Native",
+    "importance": "required"
+  },
+  {
+    "role_name": "React Native Engineer",
+    "skill_name": "React.js",
+    "importance": "required"
+  },
+  {
+    "role_name": "React Native Engineer",
+    "skill_name": "Redux / State Management",
+    "importance": "required"
+  },
+  {
+    "role_name": "React Native Engineer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "React Native Engineer",
+    "skill_name": "TypeScript",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "React Native Engineer",
+    "skill_name": "Redux",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Mobile Architect",
+    "skill_name": "System Design",
+    "importance": "required"
+  },
+  {
+    "role_name": "Mobile Architect",
+    "skill_name": "Microservices Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Mobile Architect",
+    "skill_name": "CI/CD Principles",
+    "importance": "required"
+  },
+  {
+    "role_name": "Mobile Architect",
+    "skill_name": "Leadership",
+    "importance": "required"
+  },
+  {
+    "role_name": "Mobile Architect",
+    "skill_name": "Strategic Decision Making",
+    "importance": "required"
+  },
+  {
+    "role_name": "Mobile Architect",
+    "skill_name": "Swift",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Mobile Architect",
+    "skill_name": "Kotlin",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Wearable Device Developer",
+    "skill_name": "C++",
+    "importance": "required"
+  },
+  {
+    "role_name": "Wearable Device Developer",
+    "skill_name": "Java",
+    "importance": "required"
+  },
+  {
+    "role_name": "Wearable Device Developer",
+    "skill_name": "Object-Oriented Programming (OOP)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Wearable Device Developer",
+    "skill_name": "Problem Solving",
+    "importance": "required"
+  },
+  {
+    "role_name": "Wearable Device Developer",
+    "skill_name": "Network Protocols (TCP/IP, UDP)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Wearable Device Developer",
+    "skill_name": "Kotlin",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Wearable Device Developer",
+    "skill_name": "Swift",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "DevOps Engineer",
+    "skill_name": "Docker",
+    "importance": "required"
+  },
+  {
+    "role_name": "DevOps Engineer",
+    "skill_name": "Kubernetes",
+    "importance": "required"
+  },
+  {
+    "role_name": "DevOps Engineer",
+    "skill_name": "CI/CD Principles",
+    "importance": "required"
+  },
+  {
+    "role_name": "DevOps Engineer",
+    "skill_name": "Bash/Shell Scripting",
+    "importance": "required"
+  },
+  {
+    "role_name": "DevOps Engineer",
+    "skill_name": "Jenkins",
+    "importance": "required"
+  },
+  {
+    "role_name": "DevOps Engineer",
+    "skill_name": "Terraform",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "DevOps Engineer",
+    "skill_name": "AWS EC2",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Site Reliability Engineer (SRE)",
+    "skill_name": "Linux",
+    "importance": "required"
+  },
+  {
+    "role_name": "Site Reliability Engineer (SRE)",
+    "skill_name": "Python",
+    "importance": "required"
+  },
+  {
+    "role_name": "Site Reliability Engineer (SRE)",
+    "skill_name": "Docker",
+    "importance": "required"
+  },
+  {
+    "role_name": "Site Reliability Engineer (SRE)",
+    "skill_name": "Kubernetes",
+    "importance": "required"
+  },
+  {
+    "role_name": "Site Reliability Engineer (SRE)",
+    "skill_name": "Prometheus",
+    "importance": "required"
+  },
+  {
+    "role_name": "Site Reliability Engineer (SRE)",
+    "skill_name": "Grafana",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Site Reliability Engineer (SRE)",
+    "skill_name": "Datadog",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Cloud Infrastructure Engineer",
+    "skill_name": "AWS EC2",
+    "importance": "required"
+  },
+  {
+    "role_name": "Cloud Infrastructure Engineer",
+    "skill_name": "Terraform",
+    "importance": "required"
+  },
+  {
+    "role_name": "Cloud Infrastructure Engineer",
+    "skill_name": "Bash/Shell Scripting",
+    "importance": "required"
+  },
+  {
+    "role_name": "Cloud Infrastructure Engineer",
+    "skill_name": "Network Protocols (TCP/IP, UDP)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Cloud Infrastructure Engineer",
+    "skill_name": "Cloud Computing Service Models (IaaS, PaaS, SaaS)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Cloud Infrastructure Engineer",
+    "skill_name": "Google Cloud Platform (GCP)",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Cloud Infrastructure Engineer",
+    "skill_name": "Microsoft Azure",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Containerization Specialist",
+    "skill_name": "Docker",
+    "importance": "required"
+  },
+  {
+    "role_name": "Containerization Specialist",
+    "skill_name": "Kubernetes",
+    "importance": "required"
+  },
+  {
+    "role_name": "Containerization Specialist",
+    "skill_name": "Containerization Concepts",
+    "importance": "required"
+  },
+  {
+    "role_name": "Containerization Specialist",
+    "skill_name": "Linux",
+    "importance": "required"
+  },
+  {
+    "role_name": "Containerization Specialist",
+    "skill_name": "Bash/Shell Scripting",
+    "importance": "required"
+  },
+  {
+    "role_name": "Containerization Specialist",
+    "skill_name": "Terraform",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Containerization Specialist",
+    "skill_name": "Prometheus",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Release Manager",
+    "skill_name": "CI/CD Principles",
+    "importance": "required"
+  },
+  {
+    "role_name": "Release Manager",
+    "skill_name": "Version Control Workflows (Git Flow)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Release Manager",
+    "skill_name": "Leadership",
+    "importance": "required"
+  },
+  {
+    "role_name": "Release Manager",
+    "skill_name": "Team Collaboration",
+    "importance": "required"
+  },
+  {
+    "role_name": "Release Manager",
+    "skill_name": "Time Management",
+    "importance": "required"
+  },
+  {
+    "role_name": "Release Manager",
+    "skill_name": "Jira",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Release Manager",
+    "skill_name": "Jenkins",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Software Development Engineer in Test (SDET)",
+    "skill_name": "Java",
+    "importance": "required"
+  },
+  {
+    "role_name": "Software Development Engineer in Test (SDET)",
+    "skill_name": "Python",
+    "importance": "required"
+  },
+  {
+    "role_name": "Software Development Engineer in Test (SDET)",
+    "skill_name": "Test-Driven Development (TDD)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Software Development Engineer in Test (SDET)",
+    "skill_name": "CI/CD Principles",
+    "importance": "required"
+  },
+  {
+    "role_name": "Software Development Engineer in Test (SDET)",
+    "skill_name": "Problem Solving",
+    "importance": "required"
+  },
+  {
+    "role_name": "Software Development Engineer in Test (SDET)",
+    "skill_name": "Selenium",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Software Development Engineer in Test (SDET)",
+    "skill_name": "Cypress",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Automation Test Engineer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Automation Test Engineer",
+    "skill_name": "Python",
+    "importance": "required"
+  },
+  {
+    "role_name": "Automation Test Engineer",
+    "skill_name": "Test-Driven Development (TDD)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Automation Test Engineer",
+    "skill_name": "Problem Solving",
+    "importance": "required"
+  },
+  {
+    "role_name": "Automation Test Engineer",
+    "skill_name": "Analytical Thinking",
+    "importance": "required"
+  },
+  {
+    "role_name": "Automation Test Engineer",
+    "skill_name": "Jenkins",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Automation Test Engineer",
+    "skill_name": "Postman",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Performance Test Engineer",
+    "skill_name": "Java",
+    "importance": "required"
+  },
+  {
+    "role_name": "Performance Test Engineer",
+    "skill_name": "Python",
+    "importance": "required"
+  },
+  {
+    "role_name": "Performance Test Engineer",
+    "skill_name": "Analytical Thinking",
+    "importance": "required"
+  },
+  {
+    "role_name": "Performance Test Engineer",
+    "skill_name": "HTTP/HTTPS Lifecycle",
+    "importance": "required"
+  },
+  {
+    "role_name": "Performance Test Engineer",
+    "skill_name": "Network Protocols (TCP/IP, UDP)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Performance Test Engineer",
+    "skill_name": "JMeter",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Performance Test Engineer",
+    "skill_name": "Datadog",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "QA Analyst",
+    "skill_name": "Analytical Thinking",
+    "importance": "required"
+  },
+  {
+    "role_name": "QA Analyst",
+    "skill_name": "Problem Solving",
+    "importance": "required"
+  },
+  {
+    "role_name": "QA Analyst",
+    "skill_name": "Effective Written Communication",
+    "importance": "required"
+  },
+  {
+    "role_name": "QA Analyst",
+    "skill_name": "Team Collaboration",
+    "importance": "required"
+  },
+  {
+    "role_name": "QA Analyst",
+    "skill_name": "Attention to Detail",
+    "importance": "required"
+  },
+  {
+    "role_name": "QA Analyst",
+    "skill_name": "Jira",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "QA Analyst",
+    "skill_name": "Trello",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "QA Architect",
+    "skill_name": "System Design",
+    "importance": "required"
+  },
+  {
+    "role_name": "QA Architect",
+    "skill_name": "Test-Driven Development (TDD)",
+    "importance": "required"
+  },
+  {
+    "role_name": "QA Architect",
+    "skill_name": "CI/CD Principles",
+    "importance": "required"
+  },
+  {
+    "role_name": "QA Architect",
+    "skill_name": "Leadership",
+    "importance": "required"
+  },
+  {
+    "role_name": "QA Architect",
+    "skill_name": "Strategic Decision Making",
+    "importance": "required"
+  },
+  {
+    "role_name": "QA Architect",
+    "skill_name": "Docker",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "QA Architect",
+    "skill_name": "Kubernetes",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Web Application Security Engineer",
+    "skill_name": "OWASP Top 10",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Application Security Engineer",
+    "skill_name": "Vulnerability Management",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Application Security Engineer",
+    "skill_name": "Penetration Testing Methodologies",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Application Security Engineer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Application Security Engineer",
+    "skill_name": "Burp Suite",
+    "importance": "required"
+  },
+  {
+    "role_name": "Web Application Security Engineer",
+    "skill_name": "SQL",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Web Application Security Engineer",
+    "skill_name": "Python",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Information Security Analyst",
+    "skill_name": "Network Protocols (TCP/IP, UDP)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Information Security Analyst",
+    "skill_name": "Threat Modeling",
+    "importance": "required"
+  },
+  {
+    "role_name": "Information Security Analyst",
+    "skill_name": "Incident Response Planning",
+    "importance": "required"
+  },
+  {
+    "role_name": "Information Security Analyst",
+    "skill_name": "Analytical Thinking",
+    "importance": "required"
+  },
+  {
+    "role_name": "Information Security Analyst",
+    "skill_name": "Splunk",
+    "importance": "required"
+  },
+  {
+    "role_name": "Information Security Analyst",
+    "skill_name": "Wireshark",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Information Security Analyst",
+    "skill_name": "Operational Technology (OT) Security",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Penetration Tester",
+    "skill_name": "Penetration Testing Methodologies",
+    "importance": "required"
+  },
+  {
+    "role_name": "Penetration Tester",
+    "skill_name": "Bash/Shell Scripting",
+    "importance": "required"
+  },
+  {
+    "role_name": "Penetration Tester",
+    "skill_name": "Python",
+    "importance": "required"
+  },
+  {
+    "role_name": "Penetration Tester",
+    "skill_name": "Metasploit",
+    "importance": "required"
+  },
+  {
+    "role_name": "Penetration Tester",
+    "skill_name": "Nmap",
+    "importance": "required"
+  },
+  {
+    "role_name": "Penetration Tester",
+    "skill_name": "Burp Suite",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Penetration Tester",
+    "skill_name": "OWASP Top 10",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "DevSecOps Engineer",
+    "skill_name": "CI/CD Principles",
+    "importance": "required"
+  },
+  {
+    "role_name": "DevSecOps Engineer",
+    "skill_name": "Docker",
+    "importance": "required"
+  },
+  {
+    "role_name": "DevSecOps Engineer",
+    "skill_name": "Kubernetes",
+    "importance": "required"
+  },
+  {
+    "role_name": "DevSecOps Engineer",
+    "skill_name": "Vulnerability Management",
+    "importance": "required"
+  },
+  {
+    "role_name": "DevSecOps Engineer",
+    "skill_name": "Jenkins",
+    "importance": "required"
+  },
+  {
+    "role_name": "DevSecOps Engineer",
+    "skill_name": "Terraform",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "DevSecOps Engineer",
+    "skill_name": "Ansible",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Shopify Developer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "Shopify Developer",
+    "skill_name": "HTML5",
+    "importance": "required"
+  },
+  {
+    "role_name": "Shopify Developer",
+    "skill_name": "CSS3",
+    "importance": "required"
+  },
+  {
+    "role_name": "Shopify Developer",
+    "skill_name": "RESTful API Architecture",
+    "importance": "required"
+  },
+  {
+    "role_name": "Shopify Developer",
+    "skill_name": "Problem Solving",
+    "importance": "required"
+  },
+  {
+    "role_name": "Shopify Developer",
+    "skill_name": "React.js",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Shopify Developer",
+    "skill_name": "GraphQL",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "WordPress Developer",
+    "skill_name": "PHP",
+    "importance": "required"
+  },
+  {
+    "role_name": "WordPress Developer",
+    "skill_name": "MySQL",
+    "importance": "required"
+  },
+  {
+    "role_name": "WordPress Developer",
+    "skill_name": "HTML5",
+    "importance": "required"
+  },
+  {
+    "role_name": "WordPress Developer",
+    "skill_name": "CSS3",
+    "importance": "required"
+  },
+  {
+    "role_name": "WordPress Developer",
+    "skill_name": "JavaScript",
+    "importance": "required"
+  },
+  {
+    "role_name": "WordPress Developer",
+    "skill_name": "jQuery",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "WordPress Developer",
+    "skill_name": "SEO",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Chief Technology Officer (CTO)",
+    "skill_name": "Leadership",
+    "importance": "required"
+  },
+  {
+    "role_name": "Chief Technology Officer (CTO)",
+    "skill_name": "Strategic Decision Making",
+    "importance": "required"
+  },
+  {
+    "role_name": "Chief Technology Officer (CTO)",
+    "skill_name": "System Design",
+    "importance": "required"
+  },
+  {
+    "role_name": "Chief Technology Officer (CTO)",
+    "skill_name": "Cloud Computing Service Models (IaaS, PaaS, SaaS)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Chief Technology Officer (CTO)",
+    "skill_name": "Team Collaboration",
+    "importance": "required"
+  },
+  {
+    "role_name": "Chief Technology Officer (CTO)",
+    "skill_name": "Mentoring & Coaching",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Chief Technology Officer (CTO)",
+    "skill_name": "Negotiation Skills",
+    "importance": "nice_to_have"
+  },
+  {
+    "role_name": "Operational Technology (OT) Security Engineer",
+    "skill_name": "Operational Technology (OT) Security",
+    "importance": "required"
+  },
+  {
+    "role_name": "Operational Technology (OT) Security Engineer",
+    "skill_name": "Network Protocols (TCP/IP, UDP)",
+    "importance": "required"
+  },
+  {
+    "role_name": "Operational Technology (OT) Security Engineer",
+    "skill_name": "Python",
+    "importance": "nice_to_have"
+  }
+]

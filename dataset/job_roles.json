@@ -8,8 +8,10 @@
     "description": "Membangun dan mengelola server, database, dan API yang mendukung aplikasi web dan mobile."
   },
   {
-    "name": "Data Analyst",
-    "description": "Mengumpulkan, membersihkan, dan menganalisis data untuk menghasilkan insight bisnis yang berharga."
+    "role": "Data Analyst",
+    "category": "Data Science",
+    "description": "Mengumpulkan, membersihkan, dan menginterpretasikan data untuk menjawab pertanyaan bisnis spesifik. Membuat dasbor interaktif dan laporan visual untuk mengkomunikasikan tren kepada pemangku kepentingan.",
+    "name": "Data Analyst"
   },
   {
     "name": "UI/UX Designer",
@@ -18,5 +20,887 @@
   {
     "name": "Digital Marketing",
     "description": "Merencanakan dan menjalankan strategi pemasaran digital melalui berbagai platform online."
+  },
+  {
+    "role": "Front-End Developer",
+    "category": "Front-End",
+    "description": "Fokus pada pengembangan antarmuka pengguna interaktif menggunakan HTML, CSS, dan JavaScript. Bertanggung jawab atas performa sisi klien dan memastikan pengalaman pengguna yang responsif melintasi berbagai peramban.",
+    "name": "Front-End Developer"
+  },
+  {
+    "role": "React Specialist",
+    "category": "Front-End",
+    "description": "Membangun antarmuka pengguna kompleks berbasis komponen menggunakan pustaka React.js. Mengelola status aplikasi skala besar dengan alat seperti Redux atau Context API.",
+    "name": "React Specialist"
+  },
+  {
+    "role": "Vue.js Engineer",
+    "category": "Front-End",
+    "description": "Merancang dan mengimplementasikan arsitektur Aplikasi Halaman Tunggal (SPA) menggunakan kerangka kerja Vue.js. Mengoptimalkan reaktivitas dan performa rendering di sisi peramban.",
+    "name": "Vue.js Engineer"
+  },
+  {
+    "role": "UI Developer",
+    "category": "Front-End",
+    "description": "Menerjemahkan prototipe desain visual menjadi kode front-end yang semantik dan dapat diakses. Menjembatani kesenjangan antara desain estetika dan rekayasa perangkat lunak fungsional.",
+    "name": "UI Developer"
+  },
+  {
+    "role": "UX Engineer",
+    "category": "Front-End",
+    "description": "Berfokus pada interaksi teknis dan alur perjalanan pengguna di dalam aplikasi web. Melakukan pengujian A/B iteratif dan pembuatan prototipe interaktif beresolusi tinggi.",
+    "name": "UX Engineer"
+  },
+  {
+    "role": "Front-End Architect",
+    "category": "Front-End",
+    "description": "Menentukan standar arsitektur sisi klien dan tumpukan teknologi untuk sistem front-end berskala perusahaan. Memastikan modularitas kode, skalabilitas, dan integrasi yang mulus dengan API layanan mikro.",
+    "name": "Front-End Architect"
+  },
+  {
+    "role": "Web Accessibility Specialist",
+    "category": "Front-End",
+    "description": "Mengaudit dan merekayasa antarmuka web agar mematuhi standar aksesibilitas WCAG. Memastikan aplikasi dapat digunakan oleh individu yang menggunakan teknologi bantu seperti pembaca layar.",
+    "name": "Web Accessibility Specialist"
+  },
+  {
+    "role": "UI Animation Engineer",
+    "category": "Front-End",
+    "description": "Menciptakan animasi antarmuka dan transisi mikro yang kompleks menggunakan CSS dan WebGL. Mengoptimalkan kinerja rendering agar animasi berjalan pada 60 frame per detik tanpa memblokir thread utama.",
+    "name": "UI Animation Engineer"
+  },
+  {
+    "role": "Web Performance Engineer",
+    "category": "Front-End",
+    "description": "Menganalisis dan meminimalkan metrik Core Web Vitals seperti waktu muat dan pergeseran tata letak. Mengimplementasikan strategi pemuatan lambat (lazy loading) dan pemisahan kode (code splitting).",
+    "name": "Web Performance Engineer"
+  },
+  {
+    "role": "Angular Developer",
+    "category": "Front-End",
+    "description": "Membangun aplikasi tingkat perusahaan yang terstruktur menggunakan kerangka kerja Angular dan TypeScript. Mengelola injeksi dependensi dan rute aplikasi yang kompleks.",
+    "name": "Angular Developer"
+  },
+  {
+    "role": "Back-End Developer",
+    "category": "Back-End",
+    "description": "Merancang logika bisnis sisi server, merutekan permintaan klien, dan mengelola interaksi basis data. Membangun dan memelihara API RESTful atau GraphQL yang aman.",
+    "name": "Back-End Developer"
+  },
+  {
+    "role": "PHP/Laravel Engineer",
+    "category": "Back-End",
+    "description": "Mengembangkan aplikasi server yang tangguh dan terskala menggunakan bahasa PHP dan kerangka kerja Laravel. Mengimplementasikan arsitektur MVC dan manajemen tugas latar belakang.",
+    "name": "PHP/Laravel Engineer"
+  },
+  {
+    "role": "Node.js Developer",
+    "category": "Back-End",
+    "description": "Membangun arsitektur server asinkron dan digerakkan oleh peristiwa (event-driven) menggunakan lingkungan runtime Node.js. Mengoptimalkan aplikasi untuk menangani ribuan koneksi konkuren dengan latensi rendah.",
+    "name": "Node.js Developer"
+  },
+  {
+    "role": "Python API Engineer",
+    "category": "Back-End",
+    "description": "Merancang layanan antarmuka pemrograman aplikasi berkinerja tinggi menggunakan kerangka kerja seperti Django atau FastAPI. Mengintegrasikan model pemrosesan data dan algoritma ke dalam titik akhir web.",
+    "name": "Python API Engineer"
+  },
+  {
+    "role": "Java Software Engineer",
+    "category": "Back-End",
+    "description": "Memelihara dan menskalakan infrastruktur sistem tingkat perusahaan menggunakan Java dan Spring Boot. Memastikan keandalan transaksional tingkat tinggi dalam arsitektur layanan mikro.",
+    "name": "Java Software Engineer"
+  },
+  {
+    "role": "Golang Backend Developer",
+    "category": "Back-End",
+    "description": "Menulis layanan backend berkonkurensi tinggi dan dikompilasi murni menggunakan bahasa Go. Berfokus pada kecepatan eksekusi dan efisiensi memori untuk sistem terdistribusi.",
+    "name": "Golang Backend Developer"
+  },
+  {
+    "role": "Database Administrator (DBA)",
+    "category": "Back-End",
+    "description": "Merancang skema, memelihara integritas, dan mengamankan penyimpanan data perusahaan. Menyetel kinerja kueri yang kompleks baik untuk basis data SQL maupun NoSQL.",
+    "name": "Database Administrator (DBA)"
+  },
+  {
+    "role": "Back-End Architect",
+    "category": "Back-End",
+    "description": "Merancang infrastruktur sisi server tingkat makro, termasuk strategi penyeimbangan beban dan manajemen basis data terdistribusi. Mencegah kemacetan sistemik pada aplikasi dengan lalu lintas masif.",
+    "name": "Back-End Architect"
+  },
+  {
+    "role": "Cloud API Developer",
+    "category": "Back-End",
+    "description": "Membangun dan mengekspos layanan tanpa server (serverless) di platform awan seperti AWS atau Azure. Mengelola otentikasi API dan pembatasan laju (rate limiting) layanan.",
+    "name": "Cloud API Developer"
+  },
+  {
+    "role": "Data Engineer",
+    "category": "Back-End",
+    "description": "Membangun saluran paip data (data pipelines) yang mengekstrak, mengubah, dan memuat (ETL) informasi ke dalam gudang data. Memfasilitasi aliran data mentah menjadi format yang siap dianalisis oleh sistem aplikasi.",
+    "name": "Data Engineer"
+  },
+  {
+    "role": "Full-Stack Developer",
+    "category": "Full-Stack",
+    "description": "Mengoperasikan keseluruhan siklus pengembangan web dari antarmuka sisi klien hingga infrastruktur basis data sisi server. Memastikan integrasi yang mulus antara komponen front-end dan back-end.",
+    "name": "Full-Stack Developer"
+  },
+  {
+    "role": "MERN Stack Specialist",
+    "category": "Full-Stack",
+    "description": "Membangun aplikasi ujung-ke-ujung murni menggunakan tumpukan teknologi berbasis JavaScript (MongoDB, Express, React, Node.js). Memanfaatkan sinkronisasi data real-time menggunakan bahasa pemrograman tunggal di seluruh tumpukan.",
+    "name": "MERN Stack Specialist"
+  },
+  {
+    "role": "Next.js Full-Stack Developer",
+    "category": "Full-Stack",
+    "description": "Mengembangkan aplikasi web mutakhir dengan kemampuan rendering sisi server (SSR) dan pembuatan situs statis (SSG) via Next.js. Mengintegrasikan antarmuka React dengan rute API back-end dalam satu basis kode.",
+    "name": "Next.js Full-Stack Developer"
+  },
+  {
+    "role": "LAMP Stack Developer",
+    "category": "Full-Stack",
+    "description": "Mengelola dan menyebarkan aplikasi web tradisional menggunakan Linux, Apache, MySQL, dan PHP/Python. Memelihara sistem warisan dan mendukung arsitektur server monolitik.",
+    "name": "LAMP Stack Developer"
+  },
+  {
+    "role": "Jamstack Engineer",
+    "category": "Full-Stack",
+    "description": "Membangun aplikasi web yang sangat cepat dan aman dengan memisahkan antarmuka pengguna dari basis data secara arsitektural. Mengandalkan pre-rendering statis yang disajikan melalui CDN dan API pihak ketiga.",
+    "name": "Jamstack Engineer"
+  },
+  {
+    "role": "Full-Stack Software Architect",
+    "category": "Full-Stack",
+    "description": "Merumuskan cetak biru arsitektur holistik untuk aplikasi web yang kompleks. Menyeimbangkan trade-off antara teknologi klien dan server untuk mengoptimalkan skalabilitas bisnis.",
+    "name": "Full-Stack Software Architect"
+  },
+  {
+    "role": "Enterprise Full-Stack Engineer",
+    "category": "Full-Stack",
+    "description": "Menavigasi dan mengintegrasikan berbagai tumpukan teknologi dan tumpukan perangkat lunak warisan di dalam lingkungan perusahaan besar. Memastikan interoperabilitas antara sistem web baru dan layanan internal perusahaan.",
+    "name": "Enterprise Full-Stack Engineer"
+  },
+  {
+    "role": "iOS Native Developer",
+    "category": "Mobile",
+    "description": "Membangun aplikasi seluler berkinerja tinggi secara eksklusif untuk ekosistem Apple menggunakan Swift atau Objective-C. Menavigasi pedoman desain interaksi manusia (HIG) Apple yang ketat.",
+    "name": "iOS Native Developer"
+  },
+  {
+    "role": "Android Native Developer",
+    "category": "Mobile",
+    "description": "Merancang aplikasi asli fungsional untuk lanskap perangkat Android menggunakan Kotlin atau Java. Menangani fragmentasi parah dalam resolusi layar dan kapabilitas memori perangkat keras.",
+    "name": "Android Native Developer"
+  },
+  {
+    "role": "Flutter Developer",
+    "category": "Mobile",
+    "description": "Menerapkan basis kode tunggal menggunakan bahasa Dart untuk menghasilkan aplikasi asli yang dikompilasi secara lintas platform. Mempercepat siklus rilis fitur untuk sistem iOS dan Android secara simultan.",
+    "name": "Flutter Developer"
+  },
+  {
+    "role": "React Native Engineer",
+    "category": "Mobile",
+    "description": "Mentransfer paradigma pengembangan web React ke dalam konteks aplikasi seluler asli menggunakan JavaScript. Menjembatani modul asli perangkat lunak seluler untuk mengoptimalkan kinerja aplikasi keras keras.",
+    "name": "React Native Engineer"
+  },
+  {
+    "role": "Mobile Architect",
+    "category": "Mobile",
+    "description": "Menentukan standar arsitektural untuk aplikasi seluler berskala jutaan pengguna, termasuk manajemen status lintas platform. Memastikan sinkronisasi data luring (offline) yang aman dan efisien.",
+    "name": "Mobile Architect"
+  },
+  {
+    "role": "Wearable Device Developer",
+    "category": "Mobile",
+    "description": "Merekayasa perangkat lunak untuk perangkat komputasi yang dapat dikenakan seperti jam tangan pintar dan pelacak kebugaran. Mengoptimalkan aplikasi untuk kendala konsumsi baterai dan antarmuka mikro.",
+    "name": "Wearable Device Developer"
+  },
+  {
+    "role": "DevOps Engineer",
+    "category": "DevOps/SRE",
+    "description": "Menjembatani batas antara pengembangan perangkat lunak dan operasi TI menggunakan alat otomatisasi canggih. Merancang dan mengelola jalur Integrasi Berkelanjutan dan Penerapan Berkelanjutan (CI/CD).",
+    "name": "DevOps Engineer"
+  },
+  {
+    "role": "Site Reliability Engineer (SRE)",
+    "category": "Site Reliability",
+    "description": "Membatasi ketidakstabilan sistem dengan menetapkan dan menegakkan Anggaran Kesalahan (Error Budgets) berbasis perhitungan matematis. Menyeimbangkan kecepatan peluncuran fitur baru dengan metrik keandalan infrastruktur inti.",
+    "name": "Site Reliability Engineer (SRE)"
+  },
+  {
+    "role": "Cloud Infrastructure Engineer",
+    "category": "DevOps/SRE",
+    "description": "Memprovisikan dan memelihara jaringan server virtual di penyedia awan utama (AWS, GCP, Azure). Menggunakan metodologi Infrastruktur sebagai Kode (IaC) seperti Terraform untuk menduplikasi lingkungan dengan cepat.",
+    "name": "Cloud Infrastructure Engineer"
+  },
+  {
+    "role": "Containerization Specialist",
+    "category": "DevOps/SRE",
+    "description": "Berfokus pada pengemasan aplikasi dan dependensinya ke dalam wadah menggunakan Docker. Mengorkestrasi klaster wadah yang dapat diskalakan secara otomatis melalui Kubernetes.",
+    "name": "Containerization Specialist"
+  },
+  {
+    "role": "Release Manager",
+    "category": "DevOps/SRE",
+    "description": "Mengawasi dan mengkoordinasikan siklus peluncuran versi perangkat lunak lintas departemen teknis. Mengurangi risiko produksi (downtime) dengan merencanakan strategi pemulihan bencana dan peluncuran bertahap.",
+    "name": "Release Manager"
+  },
+  {
+    "role": "Software Development Engineer in Test (SDET)",
+    "category": "QA/Testing",
+    "description": "Menulis skrip otomatisasi kompleks yang divalidasi langsung dalam jalur CI/CD untuk memastikan regresi tertangkap secara instan. Menggabungkan keterampilan rekayasa tingkat lanjut dengan metodologi jaminan kualitas.",
+    "name": "Software Development Engineer in Test (SDET)"
+  },
+  {
+    "role": "Automation Test Engineer",
+    "category": "QA/Testing",
+    "description": "Membangun dan memelihara kerangka kerja pengujian fungsional dan UI menggunakan alat seperti Selenium atau Cypress. Mengurangi beban pengujian manual dengan mengotomatiskan alur kerja pengguna secara skriptual.",
+    "name": "Automation Test Engineer"
+  },
+  {
+    "role": "Performance Test Engineer",
+    "category": "QA/Testing",
+    "description": "Mensimulasikan beban lalu lintas tinggi dan skenario stres (stress testing) pada arsitektur web atau API. Mengidentifikasi kemacetan memori atau latensi jaringan sebelum aplikasi mencapai lingkungan produksi.",
+    "name": "Performance Test Engineer"
+  },
+  {
+    "role": "QA Analyst",
+    "category": "QA/Testing",
+    "description": "Menyusun dan mengeksekusi rencana pengujian manual sistematis berdasarkan persyaratan produk. Mengidentifikasi anomali logika pengguna dan memverifikasi perbaikan bug dari tim pengembangan.",
+    "name": "QA Analyst"
+  },
+  {
+    "role": "QA Architect",
+    "category": "QA/Testing",
+    "description": "Merancang strategi pengujian perusahaan yang komprehensif dari tingkat unit hingga integrasi ujung-ke-ujung (E2E). Menetapkan standar metrik kualitas (code coverage) untuk seluruh departemen rekayasa.",
+    "name": "QA Architect"
+  },
+  {
+    "role": "Web Application Security Engineer",
+    "category": "Security",
+    "description": "Secara proaktif melindungi arsitektur web dari injeksi SQL, Cross-Site Scripting (XSS), dan vektor eksploitasi lainnya. Mengaudit kode sumber untuk menemukan celah kerentanan kritis.",
+    "name": "Web Application Security Engineer"
+  },
+  {
+    "role": "Information Security Analyst",
+    "category": "Security",
+    "description": "Memantau batas jaringan organisasi dari akses tidak sah dan potensi ancaman siber. Menerapkan kontrol akses kriptografi dan merespons insiden pelanggaran data.",
+    "name": "Information Security Analyst"
+  },
+  {
+    "role": "Penetration Tester",
+    "category": "Offensive Security",
+    "description": "Menyimulasikan serangan siber dunia nyata secara legal untuk mengidentifikasi dan mengeksploitasi kerentanan dalam perimeter jaringan perusahaan. Menyediakan laporan taktis mendalam beserta rekomendasi remediasi perlindungan.",
+    "name": "Penetration Tester"
+  },
+  {
+    "role": "DevSecOps Engineer",
+    "category": "Security",
+    "description": "Menanamkan alat otomatisasi keamanan dan pemeriksaan kerentanan sedini mungkin dalam siklus pengembangan perangkat lunak (shift-left). Memastikan kode aman secara inheren sebelum kompilasi atau penerapan awan.",
+    "name": "DevSecOps Engineer"
+  },
+  {
+    "role": "Shopify Developer",
+    "category": "Specialized",
+    "description": "Merekayasa fungsionalitas etalase digital dan logika transaksi untuk ekosistem platform komersial Shopify. Menyesuaikan tema Liquid dan mengoptimalkan corong konversi penghasil pendapatan langsung.",
+    "name": "Shopify Developer"
+  },
+  {
+    "role": "WordPress Developer",
+    "category": "Specialized",
+    "description": "Mengembangkan tema kustom, plugin, dan fungsionalitas ekstensi untuk Sistem Manajemen Konten WordPress. Mengelola arsitektur berbasis PHP untuk mendukung operasi penerbitan web statis maupun dinamis.",
+    "name": "WordPress Developer"
+  },
+  {
+    "role": "Chief Technology Officer (CTO)",
+    "category": "Specialized",
+    "description": "Memformulasikan visi arsitektur sistem perusahaan dan strategi teknologi makro yang mendukung tujuan bisnis. Mengawasi keseluruhan struktur matriks manajerial teknis dan pengembangan talenta tingkat eksekutif.",
+    "name": "Chief Technology Officer (CTO)"
+  },
+  {
+    "role": "Data Scientist",
+    "category": "Data Science",
+    "description": "Menganalisis kumpulan data mentah yang kompleks untuk mengekstrak wawasan bisnis yang dapat ditindaklanjuti. Membangun model prediktif dasar dan menggunakan teknik statistik untuk memecahkan masalah organisasi.",
+    "name": "Data Scientist"
+  },
+  {
+    "role": "Senior Data Scientist",
+    "category": "Data Science",
+    "description": "Memimpin proyek analitik tingkat lanjut dan membimbing anggota tim data junior. Menerapkan algoritma pembelajaran mesin tingkat lanjut untuk mengotomatiskan proses pengambilan keputusan perusahaan.",
+    "name": "Senior Data Scientist"
+  },
+  {
+    "role": "Principal Data Scientist",
+    "category": "Data Science",
+    "description": "Berfungsi sebagai penasihat strategis tingkat eksekutif untuk inisiatif berbasis data. Merancang metodologi eksperimental inovatif dan mendorong arsitektur prediktif skala besar.",
+    "name": "Principal Data Scientist"
+  },
+  {
+    "role": "Product Data Analyst",
+    "category": "Data Science",
+    "description": "Berfokus secara eksklusif pada metrik perilaku pengguna untuk mengoptimalkan siklus hidup produk digital. Merancang pengujian A/B yang ketat untuk memvalidasi peluncuran fitur baru secara statistik.",
+    "name": "Product Data Analyst"
+  },
+  {
+    "role": "Quantitative Analyst",
+    "category": "Data Science",
+    "description": "Menerapkan model matematika dan statistik yang sangat kompleks pada data keuangan atau risiko. Merancang algoritma penetapan harga yang dioptimalkan dan strategi perdagangan frekuensi tinggi (HFT).",
+    "name": "Quantitative Analyst"
+  },
+  {
+    "role": "Business Intelligence (BI) Analyst",
+    "category": "Data Science",
+    "description": "Menjembatani kesenjangan antara data mentah dan strategi operasi bisnis sehari-hari. Mengembangkan intelijen kompetitif menggunakan alat analitik pasar seperti Tableau atau PowerBI.",
+    "name": "Business Intelligence (BI) Analyst"
+  },
+  {
+    "role": "BI Developer",
+    "category": "Data Science",
+    "description": "Merancang dan memelihara infrastruktur teknis di balik sistem pelaporan intelijen bisnis. Mengoptimalkan kueri gudang data untuk memastikan dasbor eksekutif dimuat dengan latensi minimal.",
+    "name": "BI Developer"
+  },
+  {
+    "role": "Statistician",
+    "category": "Data Science",
+    "description": "Menerapkan teori statistik murni untuk merancang eksperimen dan survei pengumpulan data yang valid secara ilmiah. Menghitung tingkat kepercayaan, margin kesalahan, dan signifikansi hasil dari sampel data ekstensif.",
+    "name": "Statistician"
+  },
+  {
+    "role": "Spatial Data Scientist",
+    "category": "Data Science",
+    "description": "Menganalisis kumpulan data geospasial menggunakan Sistem Informasi Geografis (GIS) dan analitik lokasi. Memecahkan masalah spasial kompleks seperti rute logistik atau pemodelan lingkungan.",
+    "name": "Spatial Data Scientist"
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "category": "Machine Learning",
+    "description": "Merancang, membangun, dan menerapkan model pembelajaran mesin terukur ke dalam lingkungan produksi langsung. Mengoptimalkan algoritma agar dapat memproses data streaming secara real-time dengan efisiensi tinggi.",
+    "name": "Machine Learning Engineer"
+  },
+  {
+    "role": "Deep Learning Engineer",
+    "category": "Machine Learning",
+    "description": "Berspesialisasi dalam merancang jaringan saraf tiruan dengan banyak lapisan tersembunyi. Menggunakan kerangka kerja seperti TensorFlow atau PyTorch untuk memecahkan masalah non-linear yang sangat kompleks.",
+    "name": "Deep Learning Engineer"
+  },
+  {
+    "role": "NLP Engineer",
+    "category": "Machine Learning",
+    "description": "Membangun sistem algoritmik yang memungkinkan mesin memahami, menafsirkan, dan menghasilkan bahasa manusia. Mengembangkan kemampuan analisis sentimen, ekstraksi entitas, dan terjemahan bahasa otomatis.",
+    "name": "NLP Engineer"
+  },
+  {
+    "role": "Computer Vision Engineer",
+    "category": "Machine Learning",
+    "description": "Mengembangkan model AI yang mengekstrak pemahaman bermakna dari gambar digital dan video. Menerapkan algoritma deteksi objek, pengenalan wajah, dan segmentasi gambar untuk sistem otonom.",
+    "name": "Computer Vision Engineer"
+  },
+  {
+    "role": "Recommendation Systems Engineer",
+    "category": "Machine Learning",
+    "description": "Merancang mesin algoritmik yang menyarankan konten atau produk kepada pengguna berdasarkan pola perilaku masa lalu. Memanfaatkan pemfilteran kolaboratif dan matriks faktorisasi untuk mempersonalisasi pengalaman skala besar.",
+    "name": "Recommendation Systems Engineer"
+  },
+  {
+    "role": "Reinforcement Learning Specialist",
+    "category": "Machine Learning",
+    "description": "Membangun agen AI yang belajar mengambil keputusan optimal melalui proses uji coba dalam lingkungan simulasi. Diterapkan secara luas pada navigasi robotik tingkat lanjut dan AI permainan strategis.",
+    "name": "Reinforcement Learning Specialist"
+  },
+  {
+    "role": "Speech Recognition Engineer",
+    "category": "Machine Learning",
+    "description": "Membangun model akustik dan bahasa untuk menerjemahkan ucapan lisan menjadi teks terstruktur secara real-time. Menangani variabilitas aksen, kebisingan latar belakang, dan nuansa pelafalan manusia.",
+    "name": "Speech Recognition Engineer"
+  },
+  {
+    "role": "Machine Learning Architect",
+    "category": "Machine Learning",
+    "description": "Menentukan cetak biru arsitektural untuk keseluruhan siklus hidup pengembangan model AI. Mengeevaluasi trade-off antara komputasi tepi (edge computing) dan inferensi berbasis awan untuk sistem kecerdasan buatan.",
+    "name": "Machine Learning Architect"
+  },
+  {
+    "role": "Search Relevance Engineer",
+    "category": "Machine Learning",
+    "description": "Mengoptimalkan algoritma penelusuran untuk memberikan hasil yang sangat akurat berdasarkan niat pengguna. Menyetel bobot pemeringkatan menggunakan teknik pembelajaran mesin seperti Learning to Rank.",
+    "name": "Search Relevance Engineer"
+  },
+  {
+    "role": "Model Risk Officer",
+    "category": "Machine Learning",
+    "description": "Memvalidasi model prediktif untuk memastikan tidak ada bias algoritmik atau degradasi kinerja yang merugikan. Mengaudit kepatuhan sistem AI terhadap regulasi industri dan standar etika internal.",
+    "name": "Model Risk Officer"
+  },
+  {
+    "role": "AI Researcher",
+    "category": "Artificial Intelligence",
+    "description": "Memajukan batas teoretis kecerdasan buatan melalui eksperimentasi matematis murni. Menerbitkan temuan algoritmik inovatif di konferensi akademik dan publikasi industri terkemuka.",
+    "name": "AI Researcher"
+  },
+  {
+    "role": "Applied AI Scientist",
+    "category": "Artificial Intelligence",
+    "description": "Menjembatani kesenjangan antara penelitian AI teoretis dan implementasi produk komersial. Menerjemahkan makalah penelitian terbaru menjadi kode prototipe yang memecahkan masalah bisnis spesifik.",
+    "name": "Applied AI Scientist"
+  },
+  {
+    "role": "Generative AI Specialist",
+    "category": "Artificial Intelligence",
+    "description": "Berfokus pada arsitektur model dasar seperti Transformer atau GAN untuk sintesis media lanjutan. Membangun sistem yang secara otonom menghasilkan teks, gambar, atau kode yang koheren.",
+    "name": "Generative AI Specialist"
+  },
+  {
+    "role": "Prompt Engineer",
+    "category": "Artificial Intelligence",
+    "description": "Merancang dan menyempurnakan input bahasa alami untuk memandu model bahasa besar (LLM) menghasilkan output fungsional yang spesifik. Mengeksploitasi teknik zero-shot dan few-shot learning untuk optimasi inferensi.",
+    "name": "Prompt Engineer"
+  },
+  {
+    "role": "Cognitive Software Engineer",
+    "category": "Artificial Intelligence",
+    "description": "Mengintegrasikan kemampuan kognitif tingkat lanjut ke dalam aplikasi perangkat lunak perusahaan tradisional. Membangun antarmuka hibrida yang meniru proses penalaran dan pemecahan masalah manusia.",
+    "name": "Cognitive Software Engineer"
+  },
+  {
+    "role": "AI Ethicist",
+    "category": "Artificial Intelligence",
+    "description": "Mengembangkan kerangka kerja strategis untuk memastikan penerapan AI yang transparan, adil, dan tidak bias secara sosial. Memitigasi risiko hukum dan reputasi yang terkait dengan keputusan mesin otonom.",
+    "name": "AI Ethicist"
+  },
+  {
+    "role": "Robotics Scientist",
+    "category": "Artificial Intelligence",
+    "description": "Merancang perangkat lunak kendali cerdas untuk mesin fisik yang beroperasi di lingkungan dunia nyata yang tidak terstruktur. Menggabungkan visi komputer dengan kinematika untuk tugas otonomi tingkat lanjut.",
+    "name": "Robotics Scientist"
+  },
+  {
+    "role": "Expert System Designer",
+    "category": "Artificial Intelligence",
+    "description": "Membangun sistem AI berbasis aturan yang meniru kemampuan pengambilan keputusan spesialis manusia di domain tertentu. Mengkodifikasi basis pengetahuan kompleks untuk diagnostik medis atau evaluasi hukum.",
+    "name": "Expert System Designer"
+  },
+  {
+    "role": "AI Solutions Architect",
+    "category": "Artificial Intelligence",
+    "description": "Merancang infrastruktur ujung-ke-ujung yang mengintegrasikan layanan AI pihak ketiga ke dalam tumpukan teknologi perusahaan. Mengelola biaya inferensi API dan batasan skalabilitas sistem cerdas.",
+    "name": "AI Solutions Architect"
+  },
+  {
+    "role": "Edge AI Developer",
+    "category": "Artificial Intelligence",
+    "description": "Memampatkan model AI yang berat komputasi agar dapat berjalan secara lokal pada perangkat IoT dengan sumber daya terbatas. Memaksimalkan inferensi dengan latensi sangat rendah tanpa ketergantungan konektivitas awan.",
+    "name": "Edge AI Developer"
+  },
+  {
+    "role": "Data Ops Engineer",
+    "category": "Data Engineering & Ops",
+    "description": "Menerapkan prinsip pengiriman DevOps ke dalam saluran paip arsitektur data prediktif. Mengotomatiskan pengujian kualitas data harian dan memantau penyimpangan skema (schema drift).",
+    "name": "Data Ops Engineer"
+  },
+  {
+    "role": "MLOps Engineer",
+    "category": "Data Engineering & Ops",
+    "description": "Membangun infrastruktur penyebaran CI/CD khusus untuk siklus hidup model pembelajaran mesin. Memfasilitasi pelatihan ulang model secara otomatis ketika terjadi penyimpangan data (data drift) di produksi.",
+    "name": "MLOps Engineer"
+  },
+  {
+    "role": "Big Data Engineer",
+    "category": "Data Engineering & Ops",
+    "description": "Merancang sistem pemrosesan terdistribusi berskala besar menggunakan kerangka kerja seperti Hadoop atau Apache Spark. Menangani volume dan kecepatan aliran data yang tidak mungkin diproses oleh server relasional tunggal.",
+    "name": "Big Data Engineer"
+  },
+  {
+    "role": "Streaming Data Engineer",
+    "category": "Data Engineering & Ops",
+    "description": "Membangun arsitektur penyerapan data waktu nyata menggunakan teknologi seperti Apache Kafka atau Flink. Memfasilitasi analitik seketika pada peristiwa transaksi langsung atau log server.",
+    "name": "Streaming Data Engineer"
+  },
+  {
+    "role": "Data Architect",
+    "category": "Data Engineering & Ops",
+    "description": "Merumuskan strategi manajemen data global dan struktur konseptual cetak biru penyimpanan tingkat perusahaan. Mendikte kebijakan topologi arsitektural antara danau data (data lakes) dan gudang data.",
+    "name": "Data Architect"
+  },
+  {
+    "role": "Cloud Data Architect",
+    "category": "Data Engineering & Ops",
+    "description": "Berspesialisasi dalam migrasi dan optimalisasi arsitektur data besar ke dalam ekosistem awan asli seperti GCP atau AWS. Menyeimbangkan kinerja pemrosesan tanpa server dengan efisiensi biaya komputasi komersial.",
+    "name": "Cloud Data Architect"
+  },
+  {
+    "role": "ETL Developer",
+    "category": "Data Engineering & Ops",
+    "description": "Mendesain skrip proses Ekstraksi, Transformasi, dan Pemuatan (ETL) yang menghubungkan sistem sumber ke repositori analitik. Memastikan sinkronisasi integritas data terjaga melintasi berbagai platform.",
+    "name": "ETL Developer"
+  },
+  {
+    "role": "Analytics Engineer",
+    "category": "Data Engineering & Ops",
+    "description": "Berperan sebagai jembatan langsung antara insinyur data murni dan analis bisnis menggunakan alat seperti dbt. Menulis transformasi SQL modular di dalam gudang data untuk menyiapkan model pelaporan siap pakai.",
+    "name": "Analytics Engineer"
+  },
+  {
+    "role": "Database Reliability Engineer (DBRE)",
+    "category": "Data Engineering & Ops",
+    "description": "Menerapkan metodologi keandalan situs (SRE) khusus pada infrastruktur penyimpanan data berskala masif. Bertanggung jawab meminimalkan waktu henti klaster basis data dan mengatur strategi partisi data.",
+    "name": "Database Reliability Engineer (DBRE)"
+  },
+  {
+    "role": "Master Data Management (MDM) Specialist",
+    "category": "Data Engineering & Ops",
+    "description": "Menciptakan dan memelihara sumber kebenaran tunggal untuk entitas bisnis kritis di seluruh silo departemen. Menghilangkan duplikasi catatan dan memberlakukan taksonomi data yang seragam secara korporat.",
+    "name": "Master Data Management (MDM) Specialist"
+  },
+  {
+    "role": "Data Governance Lead",
+    "category": "Data Operations",
+    "description": "Menetapkan standar kebijakan kepatuhan regulasi privasi untuk retensi, akses, dan penghapusan informasi sensitif. Menyelenggarakan audit keamanan arsitektur data secara menyeluruh.",
+    "name": "Data Governance Lead"
+  },
+  {
+    "role": "Time Series Analyst",
+    "category": "Specialized Data Roles",
+    "description": "Mengkhususkan diri pada peramalan peristiwa sekuensial berdasarkan data temporal historis. Membangun model pemulusan matematis untuk perkiraan inventaris rantai pasokan atau fluktuasi harga pasar.",
+    "name": "Time Series Analyst"
+  },
+  {
+    "role": "Graph Database Engineer",
+    "category": "Specialized Data Roles",
+    "description": "Merancang arsitektur kueri untuk data yang sangat saling terhubung menggunakan basis data grafis seperti Neo4j. Memetakan hubungan hierarkis kompleks untuk sistem deteksi penipuan atau mesin rekomendasi jejaring sosial.",
+    "name": "Graph Database Engineer"
+  },
+  {
+    "role": "Fraud Analytics Specialist",
+    "category": "Specialized Data Roles",
+    "description": "Membangun sistem deteksi anomali seketika untuk mengidentifikasi pola perilaku tidak wajar dalam transaksi digital. Menggunakan algoritma pembelajaran mesin tanpa pengawasan untuk mencegah eksploitasi finansial.",
+    "name": "Fraud Analytics Specialist"
+  },
+  {
+    "role": "Bioinformatician",
+    "category": "Specialized Data Roles",
+    "description": "Menerapkan ilmu data algoritmik dan teknik komputasi statistik untuk menganalisis data biologis skala besar. Memfasilitasi percepatan penemuan obat komersial dan penelitian genetik medis mutakhir.",
+    "name": "Bioinformatician"
+  },
+  {
+    "role": "IoT Data Scientist",
+    "category": "Specialized Data Roles",
+    "description": "Menganalisis log telemetri dari jaringan perangkat keras Internet of Things yang berkecepatan tinggi. Merancang sistem peringatan pemeliharaan prediktif untuk infrastruktur industri cerdas.",
+    "name": "IoT Data Scientist"
+  },
+  {
+    "role": "Algorithmic Trader",
+    "category": "Specialized Data Roles",
+    "description": "Mengembangkan model perdagangan kuantitatif otonom yang mengeksekusi pesanan pasar saham berdasarkan sinyal presisi tinggi. Mengoptimalkan infrastruktur sistem untuk meminimalisasi latensi arbitrase hingga tingkat mikrodetik.",
+    "name": "Algorithmic Trader"
+  },
+  {
+    "role": "AI Product Manager",
+    "category": "Specialized Data Roles",
+    "description": "Memandu visi strategis dan siklus hidup pengembangan produk komersial yang digerakkan oleh pembelajaran mesin. Menerjemahkan kebutuhan pelanggan menjadi metrik fungsi objektif untuk tim ilmuwan data.",
+    "name": "AI Product Manager"
+  },
+  {
+    "role": "Data Privacy Engineer",
+    "category": "Specialized Data Roles",
+    "description": "Menanamkan teknik pelestarian privasi canggih seperti enkripsi homomorfik ke dalam arsitektur sistem. Memungkinkan analisis data agregat komprehensif tanpa membahayakan identitas individu mana pun.",
+    "name": "Data Privacy Engineer"
+  },
+  {
+    "role": "Chief Data Officer (CDO)",
+    "category": "Specialized Data Roles",
+    "description": "Eksekutif tingkat C yang mengarahkan perlakuan terhadap data korporat sebagai aset bisnis strategis. Mensinergikan investasi infrastruktur teknologi analitik dengan sasaran pertumbuhan dewan direksi perusahaan.",
+    "name": "Chief Data Officer (CDO)"
+  },
+  {
+    "role": "Cloud Architect",
+    "category": "Cloud Computing",
+    "description": "Merancang dan mengimplementasikan arsitektur komputasi awan tingkat perusahaan yang tangguh dan aman. Mengawasi strategi migrasi dari infrastruktur server fisik (on-premise) ke platform seperti AWS, Azure, atau GCP.",
+    "name": "Cloud Architect"
+  },
+  {
+    "role": "Cloud Network Engineer",
+    "category": "Cloud Computing",
+    "description": "Berfokus pada perutean, penyeimbangan beban, dan topologi jaringan virtual di dalam lingkungan komputasi awan. Memastikan konektivitas berkinerja tinggi yang menghubungkan layanan mikro awan dengan jaringan lokal perusahaan.",
+    "name": "Cloud Network Engineer"
+  },
+  {
+    "role": "Cloud Security Architect",
+    "category": "Cloud Computing",
+    "description": "Merumuskan kerangka pertahanan khusus untuk infrastruktur yang dihosting di awan publik maupun privat. Menerapkan kontrol akses tanpa kepercayaan (zero-trust) dan enkripsi data untuk mencegah kebocoran informasi di awan.",
+    "name": "Cloud Security Architect"
+  },
+  {
+    "role": "Multi-Cloud Strategist",
+    "category": "Cloud Computing",
+    "description": "Merancang ekosistem interoperabilitas yang memanfaatkan beberapa penyedia awan secara bersamaan untuk menghindari ketergantungan vendor (vendor lock-in). Mengoptimalkan penempatan beban kerja komputasi berdasarkan keunggulan spesifik masing-masing platform.",
+    "name": "Multi-Cloud Strategist"
+  },
+  {
+    "role": "Serverless Engineer",
+    "category": "Cloud Computing",
+    "description": "Membangun arsitektur aplikasi yang sepenuhnya menghilangkan kebutuhan manajemen server tradisional menggunakan layanan seperti AWS Lambda. Mengoptimalkan fungsi eksekusi asinkron untuk memaksimalkan efisiensi biaya komputasi per milidetik.",
+    "name": "Serverless Engineer"
+  },
+  {
+    "role": "Cloud Migration Specialist",
+    "category": "Cloud Computing",
+    "description": "Mengeksekusi transisi sistem perangkat lunak warisan yang kompleks ke dalam lingkungan awan modern dengan waktu henti (downtime) minimal. Memfaktorkan ulang (refactoring) basis kode monolitik agar sesuai dengan paradigma awan-asli (cloud-native).",
+    "name": "Cloud Migration Specialist"
+  },
+  {
+    "role": "FinOps Analyst",
+    "category": "Cloud Computing",
+    "description": "Menganalisis dan mengoptimalkan pengeluaran komputasi awan organisasi secara operasional. Berkolaborasi dengan tim rekayasa untuk mengidentifikasi pemborosan sumber daya dan merancang strategi komputasi yang hemat biaya.",
+    "name": "FinOps Analyst"
+  },
+  {
+    "role": "Virtualization Engineer",
+    "category": "Cloud Computing",
+    "description": "Mengelola dan menyebarkan mesin virtual serta hypervisor pada infrastruktur perangkat keras berskala besar. Memaksimalkan utilitas server fisik dengan membaginya menjadi beberapa lingkungan komputasi yang terisolasi.",
+    "name": "Virtualization Engineer"
+  },
+  {
+    "role": "Cloud Database Engineer",
+    "category": "Cloud Computing",
+    "description": "Menyebarkan dan menskalakan layanan basis data terkelola (managed database) di platform awan. Memastikan replikasi data lintang-wilayah (cross-region) beroperasi dengan mulus untuk strategi pemulihan bencana.",
+    "name": "Cloud Database Engineer"
+  },
+  {
+    "role": "Cloud Support Engineer",
+    "category": "Cloud Computing",
+    "description": "Menyediakan penyelesaian insiden teknis eskalasi tinggi untuk klien yang menggunakan infrastruktur awan perusahaan. Mendiagnosis kemacetan latensi jaringan tingkat lanjut dan kegagalan provisi instans komputasi.",
+    "name": "Cloud Support Engineer"
+  },
+  {
+    "role": "Platform Engineer",
+    "category": "DevOps",
+    "description": "Membangun portal pengembang internal (IDP) swalayan yang mengabstraksi kompleksitas infrastruktur awan dasar. Memungkinkan pengembang perangkat lunak untuk menyebarkan kode mereka sendiri secara otonom tanpa friksi operasional.",
+    "name": "Platform Engineer"
+  },
+  {
+    "role": "CI/CD Pipeline Engineer",
+    "category": "DevOps",
+    "description": "Berspesialisasi murni dalam merancang, memelihara, dan mengamankan saluran pipa Integrasi dan Penerapan Berkelanjutan. Menggunakan alat seperti Jenkins atau GitLab CI untuk mengotomatiskan kompilasi, pengujian, dan distribusi artefak perangkat lunak.",
+    "name": "CI/CD Pipeline Engineer"
+  },
+  {
+    "role": "Infrastructure as Code (IaC) Engineer",
+    "category": "DevOps",
+    "description": "Menerjemahkan topologi jaringan fisik dan server ke dalam cetak biru kode deklaratif menggunakan Terraform atau CloudFormation. Memastikan infrastruktur global dapat diduplikasi dan dihancurkan secara instan melalui skrip otomatis.",
+    "name": "Infrastructure as Code (IaC) Engineer"
+  },
+  {
+    "role": "Containerization Orchestrator",
+    "category": "DevOps",
+    "description": "Mengelola klaster Kubernetes berskala masif yang menampung ribuan layanan mikro dalam wadah (container). Menyetel algoritma penskalaan otomatis (auto-scaling) untuk menangani lonjakan lalu lintas aplikasi secara dinamis.",
+    "name": "Containerization Orchestrator"
+  },
+  {
+    "role": "Release Train Engineer",
+    "category": "DevOps",
+    "description": "Bertindak sebagai kondektur taktis yang memfasilitasi sinkronisasi peluncuran perangkat lunak melintasi puluhan tim rekayasa yang gesit (agile). Mengelola mitigasi risiko saat melakukan penerapan kode serentak ke lingkungan produksi akhir.",
+    "name": "Release Train Engineer"
+  },
+  {
+    "role": "Configuration Management Specialist",
+    "category": "DevOps",
+    "description": "Memastikan konsistensi konfigurasi sistem operasi dan tumpukan perangkat lunak melintasi ribuan armada server menggunakan alat seperti Ansible atau Chef. Mencegah penyimpangan konfigurasi (configuration drift) yang dapat memicu kegagalan sistem.",
+    "name": "Configuration Management Specialist"
+  },
+  {
+    "role": "Build and Release Engineer",
+    "category": "DevOps",
+    "description": "Mengelola sistem kontrol versi dan mengawasi proses kompilasi kode sumber menjadi biner yang dapat dieksekusi. Bertanggung jawab atas integritas dan pelacakan historis setiap artefak perangkat lunak yang diluncurkan.",
+    "name": "Build and Release Engineer"
+  },
+  {
+    "role": "Automation Architect",
+    "category": "DevOps",
+    "description": "Merancang strategi otomatisasi holistik yang menjembatani silo antara tim pengembangan, jaminan kualitas, dan operasi TI. Mengeliminasi proses manual yang rentan terhadap kesalahan manusia di seluruh siklus hidup teknologi.",
+    "name": "Automation Architect"
+  },
+  {
+    "role": "DevSecOps Integration Engineer",
+    "category": "DevOps",
+    "description": "Menyematkan pemindai kerentanan keamanan statis dan dinamis secara langsung ke dalam saluran pipa rilis perangkat lunak harian. Memblokir penyebaran aplikasi secara otomatis jika metrik kepatuhan keamanan gagal terpenuhi.",
+    "name": "DevSecOps Integration Engineer"
+  },
+  {
+    "role": "SRE Incident Commander",
+    "category": "Site Reliability",
+    "description": "Memimpin respons taktis seketika saat terjadi pemadaman sistemik besar (severity-1 outage). Mengorkestrasi saluran komunikasi krisis dan memandu insinyur pemulihan hingga stabilitas aplikasi pulih.",
+    "name": "SRE Incident Commander"
+  },
+  {
+    "role": "Observability Engineer",
+    "category": "Site Reliability",
+    "description": "Membangun instrumentasi telemetri terpusat yang menggabungkan log, metrik, dan jejak (traces) sistem terdistribusi menggunakan tumpukan ELK atau Prometheus. Memberikan visibilitas kristal bening ke dalam kotak hitam arsitektur layanan mikro.",
+    "name": "Observability Engineer"
+  },
+  {
+    "role": "Performance Reliability Engineer",
+    "category": "Site Reliability",
+    "description": "Berfokus secara eksklusif pada identifikasi dan mitigasi degradasi kinerja mikro di bawah kondisi beban puncak. Menganalisis dump memori dan men-debug latensi kernel sistem operasi untuk optimalisasi kecepatan absolut.",
+    "name": "Performance Reliability Engineer"
+  },
+  {
+    "role": "Disaster Recovery Specialist",
+    "category": "Site Reliability",
+    "description": "Merancang dan secara rutin menguji protokol kelangsungan bisnis untuk memastikan pemulihan arsitektur pasca-bencana alam atau serangan siber kritis. Memastikan RTO (Recovery Time Objective) sistem inti dapat terpenuhi.",
+    "name": "Disaster Recovery Specialist"
+  },
+  {
+    "role": "Capacity Planning Analyst",
+    "category": "Site Reliability",
+    "description": "Memproyeksikan lintasan pertumbuhan pemanfaatan infrastruktur komputasi berdasarkan data historis dan peta jalan produk. Memastikan organisasi memiliki perangkat keras atau sumber daya awan yang cukup untuk menghindari kemacetan penskalaan.",
+    "name": "Capacity Planning Analyst"
+  },
+  {
+    "role": "Red Team Operator",
+    "category": "Offensive Security",
+    "description": "Menjalankan kampanye serangan multi-vektor secara diam-diam selama berminggu-minggu untuk meniru taktik musuh persisten tingkat lanjut (APT). Menguji kesiapan tim pertahanan internal organisasi tanpa pemberitahuan sebelumnya.",
+    "name": "Red Team Operator"
+  },
+  {
+    "role": "Vulnerability Assessment Analyst",
+    "category": "Offensive Security",
+    "description": "Melakukan pemindaian berkelanjutan menggunakan perangkat lunak otomatis untuk mengkatalogkan kelemahan sistem yang diketahui (CVE) di seluruh aset TI. Memprioritaskan jadwal penambalan (patching) berdasarkan tingkat keparahan risiko.",
+    "name": "Vulnerability Assessment Analyst"
+  },
+  {
+    "role": "Exploit Developer",
+    "category": "Offensive Security",
+    "description": "Merekayasa balik perangkat lunak dan meneliti kelemahan zero-day yang belum diketahui publik. Menulis kode perangkat lunak khusus (exploit) yang dioptimalkan untuk memanipulasi kerentanan arsitektural tersebut secara andal.",
+    "name": "Exploit Developer"
+  },
+  {
+    "role": "Web App Penetration Tester",
+    "category": "Offensive Security",
+    "description": "Berfokus secara tajam pada manipulasi kelemahan logika bisnis, bypass otentikasi, dan injeksi basis data khusus pada aplikasi web klien. Mengoperasikan kerangka proksi seperti Burp Suite untuk memanipulasi lalu lintas HTTP.",
+    "name": "Web App Penetration Tester"
+  },
+  {
+    "role": "Mobile Security Researcher",
+    "category": "Offensive Security",
+    "description": "Menguji batas keamanan aplikasi sistem operasi iOS dan Android, termasuk dekompilasi binari aplikasi yang diunduh. Memeriksa kerentanan penyimpanan data lokal dan intersepsi API lalu lintas seluler.",
+    "name": "Mobile Security Researcher"
+  },
+  {
+    "role": "Social Engineering Specialist",
+    "category": "Offensive Security",
+    "description": "Mengeksploitasi psikologi manusia alih-alih cacat teknis untuk menembus pertahanan organisasi. Melakukan kampanye phishing, vishing (phishing suara), atau penyusupan fisik ke fasilitas korporat terkunci.",
+    "name": "Social Engineering Specialist"
+  },
+  {
+    "role": "Wireless Security Auditor",
+    "category": "Offensive Security",
+    "description": "Mendeteksi dan meretas titik akses nirkabel nakal (rogue AP) atau protokol enkripsi Wi-Fi yang lemah di sekitar perimeter fisik perusahaan. Memitigasi ancaman intersepsi jaringan menggunakan gelombang radio.",
+    "name": "Wireless Security Auditor"
+  },
+  {
+    "role": "Purple Team Coordinator",
+    "category": "Offensive Security",
+    "description": "Memfasilitasi putaran umpan balik interaktif antara tim penyerang (Red) dan tim bertahan (Blue) dalam latihan siber simultan. Memastikan setiap kerentanan yang berhasil dieksploitasi segera menghasilkan pembaruan aturan deteksi keamanan.",
+    "name": "Purple Team Coordinator"
+  },
+  {
+    "role": "Bug Bounty Triage Specialist",
+    "category": "Offensive Security",
+    "description": "Mengevaluasi dan mereproduksi ribuan laporan kerentanan yang dikirimkan oleh peretas etis independen ke program bounty perusahaan. Menentukan validitas dampak serangan sebelum mengesahkan pembayaran kompensasi finansial.",
+    "name": "Bug Bounty Triage Specialist"
+  },
+  {
+    "role": "Operational Technology (OT) Security Engineer",
+    "category": "Defensive Security",
+    "description": "Melindungi sistem kontrol industri (ICS) dan perangkat SCADA dari peretasan jarak jauh yang dapat menyebabkan kerusakan fisik atau penghentian produksi kritis. Mempertahankan isolasi jaringan fungsional pada fasilitas strategis seperti kilang minyak dan manufaktur.",
+    "name": "Operational Technology (OT) Security Engineer"
+  },
+  {
+    "role": "SOC Analyst",
+    "category": "Defensive Security",
+    "description": "Memantau dasbor peringatan SIEM (Security Information and Event Management) secara langsung selama 24/7 untuk mendeteksi anomali lalu lintas. Melakukan triase tingkat pertama atas aktivitas mencurigakan dan memblokir IP berbahaya secara instan.",
+    "name": "SOC Analyst"
+  },
+  {
+    "role": "Incident Response (IR) Handler",
+    "category": "Defensive Security",
+    "description": "Tim SWAT digital yang langsung diturunkan saat jaringan organisasi aktif diretas oleh musuh. Mengisolasi titik akhir yang terinfeksi, membatasi penyebaran pergerakan lateral (lateral movement), dan membersihkan ancaman persisten.",
+    "name": "Incident Response (IR) Handler"
+  },
+  {
+    "role": "Threat Intelligence Analyst",
+    "category": "Defensive Security",
+    "description": "Menyusup ke forum web gelap (dark web) dan menganalisis kampanye malware global untuk memprediksi arah serangan kelompok peretas negara-bangsa (APT) selanjutnya. Menyuplai indikator kompromi (IoC) pra-serangan kepada tim operasional.",
+    "name": "Threat Intelligence Analyst"
+  },
+  {
+    "role": "Malware Reverse Engineer",
+    "category": "Defensive Security",
+    "description": "Membongkar baris kode biner perangkat lunak tebusan (ransomware) atau virus yang tidak dikenal dalam lingkungan kotak pasir (sandbox) tertutup. Menguraikan rutinitas dekripsi dan memahami fungsi muatan perusak untuk merancang penangkal spesifik.",
+    "name": "Malware Reverse Engineer"
+  },
+  {
+    "role": "Digital Forensics Investigator",
+    "category": "Defensive Security",
+    "description": "Mengekstrak bukti jejak memori yang stabil (volatile) dan memulihkan data yang terhapus pada perangkat pasca-insiden dengan mematuhi rantai pengawasan hukum. Menetapkan garis waktu definitif tentang bagaimana suatu sistem spesifik ditembus.",
+    "name": "Digital Forensics Investigator"
+  },
+  {
+    "role": "Identity and Access Management (IAM) Engineer",
+    "category": "Security Architecture",
+    "description": "Merancang dan mengimplementasikan kerangka tata kelola akses direktori aktif, identitas federasi (SSO), dan otentikasi multi-faktor (MFA). Memastikan karyawan hanya memiliki akses sistem dengan hak istimewa paling rendah yang diperlukan (least privilege).",
+    "name": "Identity and Access Management (IAM) Engineer"
+  },
+  {
+    "role": "Cryptography Engineer",
+    "category": "Security Architecture",
+    "description": "Menulis dan mengaudit implementasi algoritma enkripsi matematis kompleks untuk melindungi data saat istirahat dan data saat transit. Mempersiapkan arsitektur pertahanan data perusahaan menghadapi era komputasi kuantum.",
+    "name": "Cryptography Engineer"
+  },
+  {
+    "role": "Network Security Engineer",
+    "category": "Security Architecture",
+    "description": "Mengkonfigurasi dan menyetel secara halus penempatan sistem deteksi intrusi (IDS), firewall generasi berikutnya (NGFW), dan proksi penelusuran batas. Mencegah ancaman serangan penolakan layanan terdistribusi (DDoS) tingkat volumetrik.",
+    "name": "Network Security Engineer"
+  },
+  {
+    "role": "Hardware Security Researcher",
+    "category": "Security Architecture",
+    "description": "Memeriksa kelemahan fisik pada mikrokontroler, prosesor, dan rantai pasokan perangkat elektronik sebelum diterapkan. Mencegah eksploitasi tingkat sirkuit terpadu atau serangan saluran samping (side-channel attacks) pada infrastruktur tersembunyi.",
+    "name": "Hardware Security Researcher"
+  },
+  {
+    "role": "Information Systems Security Officer (ISSO)",
+    "category": "Governance & Compliance",
+    "description": "Bertindak sebagai penjaga gerbang operasional harian yang memastikan seluruh sistem TI berfungsi sesuai kerangka kerja hukum keamanan ketat (seperti ISO 27001 atau NIST). Mendokumentasikan mitigasi risiko kontrol teknis secara administratif.",
+    "name": "Information Systems Security Officer (ISSO)"
+  },
+  {
+    "role": "Cybersecurity Compliance Auditor",
+    "category": "Governance & Compliance",
+    "description": "Mengevaluasi secara independen dan menyertifikasi keampuhan kontrol keamanan organisasi klien yang diharuskan oleh hukum perlindungan data finansial atau kesehatan (HIPAA/PCI-DSS). Menunjukkan area kewajiban tanggung jawab hukum perusahaan.",
+    "name": "Cybersecurity Compliance Auditor"
+  },
+  {
+    "role": "Data Loss Prevention (DLP) Engineer",
+    "category": "Governance & Compliance",
+    "description": "Merancang filter otomatis di seluruh jaringan dan titik akhir komputasi untuk mendeteksi serta memblokir transfer data sensitif yang tidak sah. Mencegah karyawan mentransfer kekayaan intelektual perusahaan ke perangkat penyimpanan eksternal.",
+    "name": "Data Loss Prevention (DLP) Engineer"
+  },
+  {
+    "role": "Chief Information Security Officer (CISO)",
+    "category": "Executive Leadership",
+    "description": "Pejabat tingkat eksekutif tertinggi yang bertanggung jawab menyelaraskan strategi keamanan siber skala penuh dengan toleransi risiko dewan direksi. Memimpin penanganan manajemen krisis reputasi jika terjadi pelanggaran data masif tingkat korporat.",
+    "name": "Chief Information Security Officer (CISO)"
+  },
+  {
+    "role": "Cybersecurity Awareness Program Manager",
+    "category": "Governance & Compliance",
+    "description": "Merancang kurikulum pelatihan psikologis dan simulasi phishing rutin untuk seluruh karyawan non-teknis. Mengubah lapisan pengguna manusia menjadi garis pertahanan pertama yang aktif terhadap taktik rekayasa sosial.",
+    "name": "Cybersecurity Awareness Program Manager"
   }
 ]

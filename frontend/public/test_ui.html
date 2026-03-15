@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Gap Tracker - AI Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 min-h-screen font-sans text-slate-800">
+
+    <!-- Header -->
+    <header class="bg-indigo-600 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold flex items-center gap-2">
+                <i data-lucide="zap" class="w-6 h-6 text-yellow-300"></i>
+                Skill Gap Tracker <span class="text-indigo-200 text-sm font-normal ml-2">Beta Demo</span>
+            </h1>
+            <div class="text-xs bg-indigo-700 px-3 py-1 rounded-full">Backend: Running</div>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-4 py-8 space-y-8">
+
+        <!-- Intro -->
+        <div class="text-center space-y-2">
+            <h2 class="text-3xl font-bold text-slate-900">Temukan Jalur Karier-mu</h2>
+            <p class="text-slate-600">Pilih peran yang kamu impikan, dan biarkan AI kami membuatkan roadmap belajarnya.</p>
+        </div>
+
+        <!-- Input Card -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-6">
+            <div>
+                <label class="block text-sm font-medium text-slate-700 mb-2">Posisi Target (Job Role)</label>
+                <select id="roleSelect" class="w-full p-3 bg-slate-50 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none transition">
+                    <option value="" disabled selected>Sedang memuat daftar role...</option>
+                </select>
+                <p class="text-xs text-slate-500 mt-2 flex items-center gap-1">
+                    <i data-lucide="info" class="w-3 h-3"></i> Data diambil langsung dari Supabase
+                </p>
+            </div>
+
+            <button onclick="generateRoadmap()" id="btnGenerate" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition flex justify-center items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed">
+                <span>Generate AI Roadmap</span>
+                <i data-lucide="sparkles" class="w-4 h-4"></i>
+            </button>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loading" class="hidden flex flex-col items-center justify-center py-12 space-y-4">
+            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+            <p class="text-slate-500 animate-pulse">Sedang menganalisis gap skill & menyusun kurikulum...</p>
+        </div>
+
+        <!-- Result Section -->
+        <div id="result" class="hidden space-y-6 animate-fade-in-up">
+            
+            <!-- Summary Card -->
+            <div class="bg-gradient-to-br from-indigo-50 to-white border border-indigo-100 rounded-xl p-6 relative overflow-hidden">
+                <div class="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-indigo-100 rounded-full opacity-50 blur-xl"></div>
+                <h3 class="text-lg font-bold text-indigo-900 mb-2">Rangkuman AI</h3>
+                <p id="summaryText" class="text-slate-700 leading-relaxed"></p>
+                <div class="mt-4 flex gap-4 text-sm font-medium text-indigo-800">
+                    <span class="flex items-center gap-1"><i data-lucide="clock" class="w-4 h-4"></i> <span id="durationText"></span></span>
+                </div>
+            </div>
+
+            <!-- Phases Timeline -->
+            <div class="space-y-4" id="phasesContainer">
+                <!-- Phase cards will be injected here -->
+            </div>
+
+        </div>
+
+        <!-- Raw JSON Debug (Optional) -->
+        <details class="group open:bg-slate-100 p-4 rounded-lg">
+            <summary class="cursor-pointer font-medium text-slate-500 text-sm hover:text-indigo-600">Lihat Raw JSON Response</summary>
+            <pre id="jsonDebug" class="mt-4 text-xs font-mono bg-slate-900 text-green-400 p-4 rounded overflow-auto max-h-64"></pre>
+        </details>
+
+    </main>
+
+    <script>
+        lucide.createIcons();
+        const API_BASE = 'http://localhost:5000/api/demo'; // Pastikan backend jalan di port 5000
+
+        // 1. Load Roles saat halaman dibuka
+        async function loadRoles() {
+            try {
+                const res = await fetch(`${API_BASE}/roles`);
+                const data = await res.json();
+                
+                const select = document.getElementById('roleSelect');
+                select.innerHTML = '<option value="" disabled selected>Pilih posisi target...</option>';
+                
+                if (data.roles) {
+                    data.roles.forEach(role => {
+                        const option = document.createElement('option');
+                        option.value = role.id;
+                        option.textContent = role.name;
+                        option.dataset.name = role.name; // Simpan nama role juga
+                        select.appendChild(option);
+                    });
+                }
+            } catch (err) {
+                alert('Gagal mengambil data role. Pastikan backend sudah jalan: npm start di folder backend');
+                console.error(err);
+            }
+        }
+
+        // 2. Generate Roadmap Action
+        async function generateRoadmap() {
+            const select = document.getElementById('roleSelect');
+            const roleId = select.value;
+            const roleName = select.options[select.selectedIndex].dataset.name;
+
+            if (!roleId) return alert('Pilih role dulu bro!');
+
+            // UI State: Loading
+            document.getElementById('loading').classList.remove('hidden');
+            document.getElementById('result').classList.add('hidden');
+            document.getElementById('btnGenerate').disabled = true;
+            document.getElementById('btnGenerate').innerHTML = 'Sedang Berpikir...';
+
+            try {
+                const response = await fetch(`${API_BASE}/roadmap`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        target_role_id: roleId,
+                        target_role_name: roleName,
+                        current_position: 'Mahasiswa / Fresh Graduate' // Hardcode untuk demo
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.error) throw new Error(data.error);
+
+                renderRoadmap(data.roadmap);
+                
+                // Debug JSON
+                document.getElementById('jsonDebug').textContent = JSON.stringify(data, null, 2);
+
+            } catch (err) {
+                alert('Error: ' + err.message);
+            } finally {
+                // UI State: Reset
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('btnGenerate').disabled = false;
+                document.getElementById('btnGenerate').innerHTML = '<span>Generate AI Roadmap</span><i data-lucide="sparkles" class="w-4 h-4"></i>';
+                lucide.createIcons();
+            }
+        }
+
+        // 3. Render Helper
+        function renderRoadmap(roadmap) {
+            // Parse JSON string/object handling (karena output Gemini kadang string kadang object)
+            let rm = roadmap;
+            if (typeof roadmap === 'string') {
+                try { rm = JSON.parse(roadmap); } catch (e) { console.error('Parse err', e); }
+            }
+
+            // Isi Summary
+            document.getElementById('summaryText').textContent = rm.summary || "Roadmap berhasil dibuat!";
+            document.getElementById('durationText').textContent = rm.estimatedDuration || "Durasi fleksibel";
+            document.getElementById('result').classList.remove('hidden');
+
+            // Render Phases
+            const container = document.getElementById('phasesContainer');
+            container.innerHTML = '';
+
+            if (rm.phases && Array.isArray(rm.phases)) {
+                rm.phases.forEach((phase, index) => {
+                    const card = document.createElement('div');
+                    card.className = "bg-white border-l-4 border-indigo-500 shadow-sm rounded-r-lg p-5 hover:shadow-md transition";
+                    
+                    let topicsHtml = phase.sub_topics.map(t => `<li class="text-slate-600">${t}</li>`).join('');
+                    let resourcesHtml = phase.resources ? phase.resources.map(r => `
+                        <a href="${r.url}" target="_blank" class="inline-flex items-center gap-1 px-3 py-1 bg-slate-100 text-indigo-600 text-xs rounded-full hover:bg-indigo-50 hover:text-indigo-700 transition">
+                            <i data-lucide="link" class="w-3 h-3"></i> ${r.title}
+                        </a>
+                    `).join('') : '';
+
+                    card.innerHTML = `
+                        <div class="flex justify-between items-start mb-3">
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-lg">Fase ${phase.phase}: ${phase.title}</h4>
+                                <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider">${phase.duration}</span>
+                            </div>
+                            <div class="bg-indigo-50 text-indigo-700 text-xs font-bold px-2 py-1 rounded">
+                                ${phase.focus_skills ? phase.focus_skills.join(', ') : 'Soft Skills'}
+                            </div>
+                        </div>
+                        
+                        <ul class="list-disc list-inside text-sm space-y-1 mb-4 marker:text-indigo-300">
+                            ${topicsHtml}
+                        </ul>
+
+                        <div class="flex flex-wrap gap-2 pt-3 border-t border-slate-100">
+                            <span class="text-xs text-slate-400 font-medium py-1">Sumber Belajar:</span>
+                            ${resourcesHtml}
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+            }
+            lucide.createIcons();
+        }
+
+        // Init
+        loadRoles();
+    </script>
+</body>
+</html>
