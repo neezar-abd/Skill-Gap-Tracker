@@ -37,7 +37,7 @@ router.post('/generate', authGuard, async (req, res, next) => {
         // Ambil profil user
         const { data: profile, error: profileError } = await supabase
             .from('profiles')
-            .select('target_role_id, job_roles(name)')
+            .select('target_role_id, current_position, job_roles(name)')
             .eq('id', req.user.id)
             .single();
 
@@ -48,7 +48,7 @@ router.post('/generate', authGuard, async (req, res, next) => {
         }
 
         // Hitung gap skill saat ini
-        const { gapSkillIds } = await calculateReadinessScore(req.user.id, profile.target_role_id);
+        const { gapSkillIds, niceToHaveGapIds } = await calculateReadinessScore(req.user.id, profile.target_role_id);
 
         if (gapSkillIds.length === 0) {
             return res.json({
@@ -65,10 +65,35 @@ router.post('/generate', authGuard, async (req, res, next) => {
 
         if (skillError) throw skillError;
 
-        // Generate roadmap via Gemini + RAG
-        const roadmapContent = await generateRoadmap(profile.job_roles.name, profile.target_role_id, gapSkills);
+        // Ambil detail nice_to_have gap skills untuk memperkaya roadmap
+        let bonusSkills = [];
+        if (niceToHaveGapIds.length > 0) {
+            const { data: nthData } = await supabase
+                .from('skills')
+                .select('id, name, category')
+                .in('id', niceToHaveGapIds);
+            bonusSkills = nthData || [];
+        }
 
-        // Simpan ke database
+        // Generate roadmap via Gemini + RAG (required + nice_to_have)
+        const roadmapContent = await generateRoadmap(
+            profile.job_roles.name,
+            profile.target_role_id,
+            [...gapSkills, ...bonusSkills],
+            profile.current_position || 'tidak diketahui'
+        );
+
+        if (roadmapContent.parseError) {
+            return res.status(502).json({ error: 'AI gagal generate roadmap yang valid. Silakan coba lagi.' });
+        }
+
+        // Hapus roadmap lama untuk user+role yang sama (satu aktif per user per role)
+        await supabase
+            .from('roadmaps')
+            .delete()
+            .eq('user_id', req.user.id)
+            .eq('target_role_id', profile.target_role_id);
+
         const { data: savedRoadmap, error: saveError } = await supabase
             .from('roadmaps')
             .insert({

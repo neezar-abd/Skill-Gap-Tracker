@@ -45,10 +45,22 @@ export const calculateReadinessScore = async (userId, targetRoleId) => {
 
     const score = Math.round((masteredRequired.length / requiredSkillIds.length) * 100);
 
+    // Ambil nice_to_have skills untuk memperkaya roadmap generation
+    const { data: nthSkills } = await supabase
+        .from('job_role_skills')
+        .select('skill_id')
+        .eq('job_role_id', targetRoleId)
+        .eq('importance', 'nice_to_have');
+
+    const niceToHaveGapIds = (nthSkills || [])
+        .map((s) => s.skill_id)
+        .filter((id) => !allMasteredIds.has(id));
+
     return {
         score,
         totalRequired: requiredSkillIds.length,
         masteredCount: masteredRequired.length,
         gapSkillIds,
+        niceToHaveGapIds,
     };
 };

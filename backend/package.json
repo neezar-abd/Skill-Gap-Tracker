@@ -6,7 +6,15 @@
   "scripts": {
     "dev": "node --watch src/index.js",
     "start": "node src/index.js",
-    "seed": "node src/scripts/seedJobRequirements.js"
+    "seed": "node src/scripts/seedJobRequirements.js",
+    "seed:master": "node src/scripts/seedMasterData.js",
+    "seed:massive": "node src/scripts/seedMassiveData.js",
+    "seed:resources": "node src/scripts/seedResources.js",
+    "seed:cleanup-legacy": "node src/scripts/cleanupLegacySkills.js",
+    "audit:naming": "node src/scripts/auditSkillNaming.js",
+    "check:db": "node src/scripts/checkDB.js",
+    "check:roadmap": "node src/scripts/checkRoadmap.js",
+    "build": "echo 'No build step'"
   },
   "keywords": [],
   "author": "",

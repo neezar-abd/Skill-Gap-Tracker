@@ -6,6 +6,7 @@ import dotenv from 'dotenv';
 
 import analysisRoutes from './routes/analysis.js';
 import roadmapRoutes from './routes/roadmap.js';
+import demoRoutes from './routes/demo.js';
 import errorHandler from './middleware/errorHandler.js';
 
 dotenv.config();
@@ -22,10 +23,12 @@ app.use(express.json());
 // ── Routes (Neezar) ─────────────────────────────────────────────
 app.use('/api/analysis', analysisRoutes);
 app.use('/api/roadmap', roadmapRoutes);
+app.use('/api/demo', demoRoutes); // Rute bypass untuk demo Neezar
 
 // TODO (Zaky): tambahkan routes auth, profile, skills, progress di sini
 
 // Health check
+app.get('/', (req, res) => res.send('Skill Gap Tracker API is running 🚀'));
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
 
 // ── Error Handler ────────────────────────────────────────────────

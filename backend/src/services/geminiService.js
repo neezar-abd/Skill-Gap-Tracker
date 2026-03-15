@@ -1,6 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import dotenv from 'dotenv';
 import { searchSimilarRequirements } from './vectorSearch.js';
+import supabase from './supabaseClient.js';
 
 dotenv.config();
 
@@ -17,10 +18,10 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
  * @param {Array} gapSkills - Array of { name, category } yang perlu dipelajari
  * @returns {Object} roadmap dari Gemini dalam format JSON
  */
-export const generateRoadmap = async (targetRole, targetRoleId, gapSkills) => {
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+export const generateRoadmap = async (targetRole, targetRoleId, gapSkills, currentPosition = 'tidak diketahui') => {
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
-  const skillList = gapSkills.map((s) => `- ${s.name} (${s.category})`).join('\n');
+  const skillList = gapSkills.map((s) => `- ${s.name}`).join('\n');
 
   // ── Step 1: RAG — Retrieve relevant job requirements ─────────────────────
   let ragContext = '';
@@ -50,13 +51,47 @@ ${contextSnippets}
     console.warn('[RAG] Vector search failed, generating without context:', err.message);
   }
 
+  // ── Step 1.5: Fetch valid URLs from DB ─────────────────────────────────
+  const skillIds = gapSkills.map((s) => s.id);
+  const resourceCatalog = {};
+
+  try {
+    if (skillIds.length > 0) {
+      // Build an id->name map from the gapSkills array
+      const idToName = {};
+      gapSkills.forEach(s => { idToName[s.id] = s.name; });
+
+      const { data: resources } = await supabase
+        .from('skill_resources')
+        .select('skill_id, title, type, url, platform')
+        .in('skill_id', skillIds);
+
+      if (resources && resources.length > 0) {
+        resources.forEach(r => {
+          const sName = idToName[r.skill_id];
+          if (sName) {
+            if (!resourceCatalog[sName]) resourceCatalog[sName] = [];
+            resourceCatalog[sName].push({
+              title: r.title,
+              type: r.type,
+              url: r.url,
+              platform: r.platform
+            });
+          }
+        });
+      }
+    }
+  } catch (err) {
+    console.warn('[DB] Failed to load curated resources:', err.message);
+  }
+
   // ── Step 2: Build prompt dengan RAG context ──────────────────────────────
   const prompt = `
 Kamu adalah career advisor yang ahli di bidang teknologi dan pengembangan karir.
 
 ${ragContext}
 
-User ingin menjadi **${targetRole}** dan memiliki skill gap berikut yang perlu dipelajari:
+User saat ini berstatus sebagai **${currentPosition}** dan ingin menjadi **${targetRole}**. Skill gap yang perlu dipelajari:
 ${skillList}
 
 Berdasarkan referensi job requirements di atas (jika ada) dan pengetahuanmu, buatkan roadmap belajar yang terstruktur dan realistis dalam format JSON:
@@ -70,26 +105,19 @@ Berdasarkan referensi job requirements di atas (jika ada) dan pengetahuanmu, bua
       "phase": 1,
       "title": "Judul fase",
       "duration": "estimasi durasi fase ini",
-      "skills": ["skill1", "skill2"],
-      "resources": [
-        {
-          "title": "Nama resource",
-          "type": "video/artikel/kursus/dokumentasi",
-          "url": "URL resource gratis",
-          "platform": "YouTube/Coursera/MDN/dll"
-        }
-      ]
+      "focus_skills": ["Nama Skill Persis dari Daftar Gap"],
+      "sub_topics": ["Sub-topik 1", "Sub-topik 2 (misal: Variabel, dll)"]
     }
   ]
 }
 
 Pastikan:
-- Urutkan dari skill fundamental ke advanced
-- Sesuaikan dengan kebutuhan pasar berdasarkan job requirements yang diberikan
-- Rekomendasikan HANYA resource gratis
-- Berikan 2-3 resource per fase
-- Field "marketInsight" wajib diisi berdasarkan referensi job posting
-- Jawab HANYA dengan JSON valid, tanpa teks tambahan
+- Urutkan dari skill fundamental ke advanced.
+- "focus_skills" HANYA BOLEH diisi dengan satu atau lebih NAMA SKILL TEPAT SEPERTI YANG ADA DI DAFTAR GAP (jangan diubah atau dipecah namanya).
+- Jangan sertakan field "resources" sama sekali. Backend kami akan mengurus datanya.
+- "sub_topics" silakan diisi dengan breakdown materi yang detail.
+- Field "marketInsight" wajib diisi berdasarkan insight job posting yang relevan.
+- Jawab HANYA dengan JSON valid, tanpa teks tambahan.
 `;
 
   // ── Step 3: Generate dengan Gemini ───────────────────────────────────────
@@ -100,8 +128,34 @@ Pastikan:
   const cleanJson = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
 
   try {
-    return JSON.parse(cleanJson);
-  } catch {
+    const parsedObj = JSON.parse(cleanJson);
+
+    // Helper: fuzzy match nama skill (Gemini sering rename/group skill dari daftar)
+    const findResourcesForSkill = (geminiSkillName, catalog) => {
+      if (catalog[geminiSkillName]) return catalog[geminiSkillName];
+      const norm = geminiSkillName.toLowerCase();
+      for (const [key, res] of Object.entries(catalog)) {
+        if (norm.includes(key.toLowerCase()) || key.toLowerCase().includes(norm)) return res;
+      }
+      return null;
+    };
+
+    // Inject programmatic resources dengan fuzzy matching
+    if (parsedObj.phases && Array.isArray(parsedObj.phases)) {
+      parsedObj.phases.forEach(phase => {
+        phase.resources = [];
+        if (phase.focus_skills && Array.isArray(phase.focus_skills)) {
+          phase.focus_skills.forEach(skillName => {
+            const matched = findResourcesForSkill(skillName, resourceCatalog);
+            if (matched) phase.resources.push(...matched);
+          });
+        }
+      });
+    }
+
+    return parsedObj;
+  } catch (e) {
+    console.error("Failed to parse Gemini output:", e);
     return { raw: text, parseError: true };
   }
 };
