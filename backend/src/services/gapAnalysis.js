@@ -60,6 +60,7 @@ export const calculateReadinessScore = async (userId, targetRoleId) => {
         score,
         totalRequired: requiredSkillIds.length,
         masteredCount: masteredRequired.length,
+        masteredSkillIds: masteredRequired,
         gapSkillIds,
         niceToHaveGapIds,
     };
