@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import authGuard from '../middleware/authGuard.js';
+import { aiLimiter } from '../middleware/rateLimiter.js';
 import supabase from '../services/supabaseClient.js';
 import { calculateReadinessScore } from '../services/gapAnalysis.js';
 import { generateRoadmap } from '../services/geminiService.js';
@@ -32,7 +33,7 @@ router.get('/', authGuard, async (req, res, next) => {
  * POST /api/roadmap/generate
  * Generate roadmap baru via Gemini berdasarkan gap skill saat ini
  */
-router.post('/generate', authGuard, async (req, res, next) => {
+router.post('/generate', authGuard, aiLimiter, async (req, res, next) => {
     try {
         // Ambil profil user
         const { data: profile, error: profileError } = await supabase

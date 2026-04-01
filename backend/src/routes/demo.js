@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import supabase from '../services/supabaseClient.js';
 import { generateRoadmap } from '../services/geminiService.js';
+import { aiLimiter } from '../middleware/rateLimiter.js';
 
 const router = Router();
 
@@ -55,7 +56,7 @@ router.get('/roles/:id/skills', async (req, res, next) => {
 });
 
 // POST /api/demo/roadmap
-router.post('/roadmap', async (req, res, next) => {
+router.post('/roadmap', aiLimiter, async (req, res, next) => {
     try {
         const { target_role_id, target_role_name, current_position } = req.body;
 

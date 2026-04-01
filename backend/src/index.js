@@ -8,6 +8,7 @@ import analysisRoutes from './routes/analysis.js';
 import roadmapRoutes from './routes/roadmap.js';
 import demoRoutes from './routes/demo.js';
 import errorHandler from './middleware/errorHandler.js';
+import { globalLimiter } from './middleware/rateLimiter.js';
 
 dotenv.config();
 
@@ -19,6 +20,7 @@ app.use(helmet());
 app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(morgan('dev'));
 app.use(express.json());
+app.use(globalLimiter); // Apply rate limiter ke semua route
 
 // ── Routes (Neezar) ─────────────────────────────────────────────
 app.use('/api/analysis', analysisRoutes);
