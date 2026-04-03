@@ -24,19 +24,28 @@ router.get('/', authGuard, async (req, res, next) => {
             return res.status(400).json({ error: 'Target role belum di-set. Lengkapi profil dulu.' });
         }
 
-        const { score, totalRequired, masteredCount, gapSkillIds } =
+        const { score, totalRequired, masteredCount, masteredSkillIds, gapSkillIds, niceToHaveGapIds } =
             await calculateReadinessScore(req.user.id, profile.target_role_id);
 
-        // Ambil detail skill gap
         let gapSkills = [];
-        if (gapSkillIds.length > 0) {
-            const { data: skillDetails, error: skillError } = await supabase
+        let masteredSkills = [];
+        let niceToHaveSkills = [];
+
+        // Kumpulkan semua ID yang butuh diambil detailnya (untuk optimasi cukup 1x query)
+        const allRequestedIds = [...new Set([...gapSkillIds, ...masteredSkillIds, ...niceToHaveGapIds])];
+
+        if (allRequestedIds.length > 0) {
+            const { data: skillsData, error: skillError } = await supabase
                 .from('skills')
                 .select('id, name, category')
-                .in('id', gapSkillIds);
+                .in('id', allRequestedIds);
 
             if (skillError) throw skillError;
-            gapSkills = skillDetails;
+
+            // Pisahkan kembali array detail skill berdasarkan ID yang didapat dari gapAnalysis
+            gapSkills = skillsData.filter(s => gapSkillIds.includes(s.id));
+            masteredSkills = skillsData.filter(s => masteredSkillIds.includes(s.id));
+            niceToHaveSkills = skillsData.filter(s => niceToHaveGapIds.includes(s.id));
         }
 
         res.json({
@@ -44,7 +53,9 @@ router.get('/', authGuard, async (req, res, next) => {
             readinessScore: score,
             totalRequired,
             masteredCount,
+            masteredSkills,
             gapSkills,
+            niceToHaveSkills,
         });
     } catch (err) {
         next(err);
